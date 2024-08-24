@@ -1,0 +1,1 @@
+summon minecraft:creeper ~ ~ ~ {Passengers:[{id:"minecraft:falling_block",BlockState:{Name:"minecraft:red_glazed_terracotta"},Time:1}],PersistenceRequired:1b}

@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Entrée dans la fourmilière",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Vous avez gagné 1 partie"
+        },
+        "icon": {
+            "item": "minecraft:dirt"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "fourmilier_2": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "fourmilier:fourmilier_1"
+}

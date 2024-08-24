@@ -1,0 +1,1 @@
+fill 423 45 -380 480 45 -340 air replace minecraft:snow_block

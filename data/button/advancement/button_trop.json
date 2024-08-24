@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Tropical !",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Vous avez trouvé le bouton de cette map !"
+        },
+        "icon": {
+            "item": "minecraft:tropical_fish"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "button_trop": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "button:button_mine"
+}

@@ -1,0 +1,1 @@
+item replace entity @s armor.head with lime_wool{HideFlags:1,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]} 1

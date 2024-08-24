@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Artefact #2",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Obtenu pour avoir miné un artefact avec une flèche"
+        },
+        "icon": {
+            "item": "minecraft:prismarine_shard"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "artefact_7": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+	"rewards": {"function": "artefacts:artefact_7"},
+    "parent": "artefacts:artefact_3"
+}

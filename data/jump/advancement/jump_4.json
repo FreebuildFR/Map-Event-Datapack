@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Spawn",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Vous êtes arrivé au bout du jump"
+        },
+        "icon": {
+            "item": "minecraft:kelp"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "jump_4": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "jump:jump_1"
+}

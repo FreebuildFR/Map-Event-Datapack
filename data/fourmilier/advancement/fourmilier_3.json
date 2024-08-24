@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Pelleteuse",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Vous avez gagné 5 parties"
+        },
+        "icon": {
+            "item": "minecraft:coarse_dirt"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "fourmilier_3": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "fourmilier:fourmilier_2"
+}

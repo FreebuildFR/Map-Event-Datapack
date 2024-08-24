@@ -1,0 +1,1 @@
+summon minecraft:husk ~ ~ ~ {HandItems:[{id:"minecraft:blaze_powder",Count:1b,tag:{Enchantments:[{id:"minecraft:fire_aspect",lvl:1s}]}},{id:"minecraft:blaze_powder",Count:1b,tag:{Enchantments:[{id:"minecraft:fire_aspect",lvl:1s}]}}],ArmorItems:[{},{},{id:"minecraft:leather_chestplate",Count:1b,tag:{display:{color:16747028}}},{id:"minecraft:pumpkin",Count:1b}]}

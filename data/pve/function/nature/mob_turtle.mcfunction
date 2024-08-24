@@ -1,0 +1,1 @@
+summon minecraft:turtle ~ ~ ~ {PersistenceRequired:1b}

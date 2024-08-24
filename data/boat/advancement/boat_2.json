@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Glissade",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Vous avez fait 10 tours de circuit"
+        },
+        "icon": {
+            "item": "minecraft:ice"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "boat_2": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "boat:boat_1"
+}

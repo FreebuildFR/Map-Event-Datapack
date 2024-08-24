@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "glacon",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Vous avez vaincu l'arène 3 fois",
+			"color": "aqua"
+        },
+        "icon": {
+            "item": "minecraft:ice"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "pve_3_11": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "pve:pve_3_1"
+}

@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "sqrt(player)",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "√ = raté"
+        },
+        "icon": {
+            "item": "minecraft:stick"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "dac_2_1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dac:dac_2"
+}

@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Pumped Up",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Vous êtes entré dans le jeu pour la première fois"
+        },
+        "icon": {
+            "item": "minecraft:stripped_dark_oak_wood"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "ecrase_1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "ecrase:root"
+}

@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Chasse à la fourmi",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Vous êtes entré dans le jeu pour la première fois"
+        },
+        "icon": {
+            "item": "minecraft:coal"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "fourmilier_1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "fourmilier:root"
+}

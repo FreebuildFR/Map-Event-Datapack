@@ -1,0 +1,1 @@
+summon minecraft:snow_golem ~ ~ ~ {PersistenceRequired:1b,Pumpkin:0b}

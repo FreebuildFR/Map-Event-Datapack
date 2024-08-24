@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Icare",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Vous avez touché Terry (>o<)"
+        },
+        "icon": {
+            "item": "minecraft:magma_block"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "elytra_3_1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "elytra:elytra_3"
+}

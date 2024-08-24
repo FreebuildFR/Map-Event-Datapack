@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Artefact #1",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Obtenu pour avoir fait le score maximal au puissance 4"
+        },
+        "icon": {
+            "item": "minecraft:prismarine_shard"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "artefact_3": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+	"rewards": {"function": "artefacts:artefact_3"},
+    "parent": "artefacts:root"
+}

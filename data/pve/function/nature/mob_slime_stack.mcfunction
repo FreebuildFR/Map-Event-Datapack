@@ -1,0 +1,1 @@
+summon minecraft:slime ~ ~ ~ {Size:1,Passengers:[{id:"minecraft:slime",Size:1,Passengers:[{id:"minecraft:slime",Size:1}]}],PersistenceRequired:1b}

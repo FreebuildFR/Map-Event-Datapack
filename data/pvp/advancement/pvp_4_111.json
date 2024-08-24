@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Déflagration draconique",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Vous avez vaincu 30 ennemis dans cette arène"
+        },
+        "icon": {
+            "item": "minecraft:magma_block"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "pvp_4_111": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "pvp:pvp_4_11"
+}

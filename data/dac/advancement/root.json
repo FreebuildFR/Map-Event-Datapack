@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "Dé à coudre",
+            "color": "gold",
+            "bold": true
+        },
+        "description": {
+            "text": "Montre votre progression dans ce jeu",
+            "color": "white",
+            "italic": false,
+			"bold": false
+        },
+        "icon": {
+            "item": "minecraft:red_wool"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/misc/underwater.png"
+
+    },
+    "criteria": {
+        "dac": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

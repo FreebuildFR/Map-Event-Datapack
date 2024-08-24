@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Dans la neige!",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Vous avez trouvé le bouton de cette map !"
+        },
+        "icon": {
+            "item": "minecraft:ice"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "button_neige": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "button:button_desert"
+}

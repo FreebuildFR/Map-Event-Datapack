@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Futur empereur",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Vous avez vaincu 30 ennemis dans cette arène"
+        },
+        "icon": {
+            "item": "minecraft:oak_leaves"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "pvp_2_111": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "pvp:pvp_2_11"
+}

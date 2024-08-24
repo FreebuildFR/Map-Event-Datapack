@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "Ecrase moi si tu peux",
+            "color": "gold",
+            "bold": true
+        },
+        "description": {
+            "text": "Montre votre progression dans ce jeu",
+            "color": "white",
+            "italic": false,
+			"bold": false
+        },
+        "icon": {
+            "item": "minecraft:piston"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/stripped_oak_log.png"
+
+    },
+    "criteria": {
+        "ecrase": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

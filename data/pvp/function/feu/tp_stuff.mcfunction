@@ -1,0 +1,2 @@
+give @s minecraft:blaze_rod{display:{Name:'{"text":"Langue de Salamandre"}'},HideFlags:1,ench:{},Enchantments:[{id:"minecraft:knockback",lvl:2s},{id:"minecraft:flame",lvl:1s}]}
+execute at @s run tp @s ~ ~ ~3

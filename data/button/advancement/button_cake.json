@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Gâteau !",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Vous avez trouvé le bouton de cette map !"
+        },
+        "icon": {
+            "item": "minecraft:cake"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "button_cake": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "button:button_neige"
+}

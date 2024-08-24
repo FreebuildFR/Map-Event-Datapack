@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Devant l'épée de légende",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Vous avez vaincu votre premier ennemi dans cette arène"
+        },
+        "icon": {
+            "item": "minecraft:stone_sword"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "pvp_5": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "pvp:pvp_1"
+}

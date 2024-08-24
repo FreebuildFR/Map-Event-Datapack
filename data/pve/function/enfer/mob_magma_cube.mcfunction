@@ -1,0 +1,1 @@
+summon magma_cube ~ ~ ~ {Size:0,Passengers:[{id:"minecraft:magma_cube",Size:0}]}

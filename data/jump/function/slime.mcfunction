@@ -1,0 +1,1 @@
+execute positioned -123 10 -397 as @e[dx=54,dy=100,dz=88,type=slime] at @s run tp @s ~ -200 ~

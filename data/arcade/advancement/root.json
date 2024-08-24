@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "Arcade",
+            "color": "gold",
+            "bold": true
+        },
+        "description": {
+            "text": "Montre votre progression dans ces jeux",
+            "color": "white",
+            "italic": false,
+			"bold": false
+        },
+        "icon": {
+            "item": "minecraft:sunflower"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/cauldron_inner.png"
+
+    },
+    "criteria": {
+        "arcade": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

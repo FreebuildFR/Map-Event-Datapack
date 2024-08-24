@@ -1,0 +1,1 @@
+summon minecraft:pufferfish ~ ~ ~ {Air:999999,PersistenceRequired:1b,PuffState:2,Passengers:[{id:"minecraft:pufferfish",Air:999999,PersistenceRequired:1b,PuffState:1,Passengers:[{id:"minecraft:pufferfish",Air:999999,PersistenceRequired:1b,PuffState:0}]}]}

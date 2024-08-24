@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Le rythme dans la peau",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Vous avez gagné 2 parties"
+        },
+        "icon": {
+            "item": "minecraft:tipped_arrow",
+			"nbt": "{Potion:\"minecraft:fire_resistance\"}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "music_4": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "music:music_3"
+}

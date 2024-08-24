@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Dameuse",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Vous avez cassé 500 blocs de neige"
+        },
+        "icon": {
+            "item": "minecraft:diamond_shovel"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "spleef_2": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "spleef:spleef_1"
+}
