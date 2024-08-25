@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Amateur de sensations fortes",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Vous avez fini le jeu 3 fois"
+        },
+        "icon": {
+            "id": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": {
+                "custom_color": 16237597
+              }
+            }
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "arc_win_2": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "arc:arc_win_1"
+}
+

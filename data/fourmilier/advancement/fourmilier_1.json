@@ -1,16 +1,16 @@
 {
     "display": {
         "title": {
-            "text": "Chasse à la fourmi",
+            "text": "Entrée dans la fourmilière",
             "color": "aqua"
         },
         "description": {
-            "text": "Vous êtes entré dans le jeu pour la première fois"
+            "text": "Vous avez gagné 1 partie"
         },
         "icon": {
-            "item": "minecraft:coal"
+            "id": "minecraft:dirt"
         },
-        "frame": "goal",
+        "frame": "task",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": false
@@ -20,5 +20,6 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "fourmilier:root"
+    "parent": "fourmilier:fourmilier_start"
 }
+

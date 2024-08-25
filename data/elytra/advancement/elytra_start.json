@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Prêt à l'envol",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Vous êtes entré dans le jeu pour la première fois"
+        },
+        "icon": {
+            "id": "minecraft:feather"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "elytra_start": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "elytra:root"
+}

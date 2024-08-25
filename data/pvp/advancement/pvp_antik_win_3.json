@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Autel",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Vous avez vaincu 30 ennemis dans cette arène"
+        },
+        "icon": {
+            "id": "minecraft:chiseled_stone_bricks"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "pvp_antik_win_3": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "pvp:pvp_antik_win_2"
+}
+

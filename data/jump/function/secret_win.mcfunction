@@ -4,8 +4,6 @@ scoreboard players operation @s time_tick += @s time_seconde
 scoreboard players operation @s time_minute *= npc_60 time_tick
 scoreboard players operation @s time_tick += @s time_minute
 scoreboard players operation @s time_minute /= npc_60 time_tick
-
-
 scoreboard players set npc_temp_time time_tick 0
 scoreboard players operation npc_temp_time time_minute = npc_best_time time_minute
 scoreboard players operation npc_temp_time time_seconde = npc_best_time time_seconde

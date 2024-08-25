@@ -12,7 +12,7 @@
 			"bold": false
         },
         "icon": {
-            "item": "minecraft:red_wool"
+            "id": "minecraft:red_wool"
         },
         "frame": "task",
         "show_toast": false,

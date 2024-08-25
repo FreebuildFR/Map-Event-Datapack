@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Ça va exploser !",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Vous avez presque tout fait exploser, heureusement les fleches ne sont pas en feu !"
+        },
+        "icon": {
+            "id": "minecraft:tnt"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "arc_tnt": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "arc:arc_start"
+}
+

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "Divinité danseuse",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Vous avez gagné 10 parties"
+        },
+        "icon": {
+            "id": "minecraft:tipped_arrow",
+            "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:healing"
+                }
+              }
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "music_win_4": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "music:music_win_3"
+}

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Icare",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Vous avez touché Terry (>o<)"
+        },
+        "icon": {
+            "id": "minecraft:magma_block"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "elytra_demoniaque_2": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "elytra:elytra_demoniaque_1"
+}
+

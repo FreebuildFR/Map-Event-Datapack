@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Bobsleigh",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Vous avez fait 10 tours de circuit"
+        },
+        "icon": {
+            "id": "minecraft:blue_ice"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "boat_noel": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "boat:boat_start"
+}
+

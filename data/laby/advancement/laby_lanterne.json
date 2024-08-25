@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "À la lanterne",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Vous êtes arrivé au bout du labyrinthe"
+        },
+        "icon": {
+            "id": "minecraft:black_concrete"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "laby_lanterne": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "laby:laby_boise"
+}
+

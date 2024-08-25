@@ -1,1 +1,1 @@
-summon minecraft:polar_bear ~ ~ ~ {Aggro:1b,Passengers:[{id:"minecraft:falling_block",BlockState:{Name:"minecraft:barrel",Properties:{facing:"up",open:"true"}},Time:1}]}
+summon polar_bear ~ ~ ~ {Passengers:[{id:"minecraft:falling_block",BlockState:{Name:"minecraft:barrel",Properties:{facing:"up",open:"true"}},Time:1}]}

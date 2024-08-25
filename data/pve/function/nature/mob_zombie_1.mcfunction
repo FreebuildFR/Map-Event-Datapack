@@ -1,1 +1,1 @@
-summon minecraft:zombie ~ ~ ~ {HandItems:[{id:"minecraft:stick",Count:1b},{}],ArmorItems:[{},{},{id:"minecraft:leather_chestplate",Count:1b,tag:{display:{color:2752332}}},{id:"minecraft:acacia_leaves",Count:1b}],PersistenceRequired:1b}
+summon zombie ~ ~ ~ {PersistenceRequired:1b,HandItems:[{id:"minecraft:stick",count:1},{}],ArmorItems:[{},{},{id:"minecraft:leather_chestplate",count:1,components:{"minecraft:dyed_color":2752332}},{id:"minecraft:acacia_leaves",count:1}]}

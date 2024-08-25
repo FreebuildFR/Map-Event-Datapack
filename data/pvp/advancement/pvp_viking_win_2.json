@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Montagne nordique",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Vous avez vaincu 15 ennemis dans cette arène"
+        },
+        "icon": {
+            "id": "minecraft:diamond_axe"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "pvp_viking_win_2": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "pvp:pvp_viking_win_1"
+}
+

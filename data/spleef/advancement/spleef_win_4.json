@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Tectonique des plaques",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Vous avez gagné 10 parties"
+        },
+        "icon": {
+            "id": "minecraft:ice"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "spleef_win_4": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "spleef:spleef_win_3"
+}
+

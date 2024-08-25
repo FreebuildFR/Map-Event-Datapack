@@ -1,1 +1,1 @@
-summon minecraft:wither_skeleton ~ ~ ~ {HandItems:[{id:"minecraft:bone",Count:1b},{id:"minecraft:bone",Count:1b}],ArmorItems:[{id:"minecraft:iron_boots",Count:1b},{id:"minecraft:iron_leggings",Count:1b},{id:"minecraft:iron_chestplate",Count:1b},{id:"minecraft:skeleton_skull",Count:1b}]}
+summon minecraft:wither_skeleton ~ ~ ~ {HandItems:[{id:"minecraft:bone",count:1},{id:"minecraft:bone",count:1}],ArmorItems:[{id:"minecraft:iron_boots",count:1},{id:"minecraft:iron_leggings",count:1},{id:"minecraft:iron_chestplate",count:1},{id:"minecraft:skeleton_skull",count:1}]}

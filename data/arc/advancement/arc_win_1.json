@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "L'oeil de faucon",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Vous avez fini le jeu pour la première fois"
+        },
+        "icon": {
+            "id": "minecraft:arrow"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "arc_win_1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "arc:arc_start"
+}
+

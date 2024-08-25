@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Artefact #7",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Obtenu pour avoir reussi le jump le plus facile à trouver"
+        },
+        "icon": {
+            "id": "minecraft:prismarine_shard"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "artefact_jump": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+	"rewards": {"function": "artefacts:artefact_jump"},
+    "parent": "artefacts:artefact_pvp"
+}
+

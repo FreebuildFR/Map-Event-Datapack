@@ -8,7 +8,7 @@
             "text": "Vous avez trouvé le bouton de cette map !"
         },
         "icon": {
-            "item": "minecraft:orange_terracotta"
+            "id": "minecraft:orange_terracotta"
         },
         "frame": "task",
         "show_toast": true,

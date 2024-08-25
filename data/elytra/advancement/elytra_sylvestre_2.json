@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "IEUUuu...",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Vous avez touché Jerry (0~0)"
+        },
+        "icon": {
+            "id": "minecraft:slime_block"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "elytra_sylvestre_2": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "elytra:elytra_sylvestre_1"
+}
+

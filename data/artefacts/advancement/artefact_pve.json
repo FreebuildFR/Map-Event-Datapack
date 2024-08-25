@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Artefact #4",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Obtenu pour avoir acquis tous les succès en arène PvE"
+        },
+        "icon": {
+            "id": "minecraft:prismarine_shard"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "artefact_pve": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+	"rewards": {"function": "artefacts:artefact_pve"},
+    "parent": "artefacts:root"
+}

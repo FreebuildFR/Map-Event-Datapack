@@ -1,14 +1,14 @@
 {
     "display": {
         "title": {
-            "text": "Entrée dans la fourmilière",
+            "text": "Pelleteuse",
             "color": "aqua"
         },
         "description": {
-            "text": "Vous avez gagné 1 partie"
+            "text": "Vous avez gagné 5 parties"
         },
         "icon": {
-            "item": "minecraft:dirt"
+            "id": "minecraft:coarse_dirt"
         },
         "frame": "task",
         "show_toast": true,
@@ -22,3 +22,4 @@
     },
     "parent": "fourmilier:fourmilier_1"
 }
+

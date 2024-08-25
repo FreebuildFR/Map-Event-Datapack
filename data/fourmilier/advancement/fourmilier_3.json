@@ -1,16 +1,16 @@
 {
     "display": {
         "title": {
-            "text": "Pelleteuse",
+            "text": "20000 lieues sous la terre",
             "color": "aqua"
         },
         "description": {
-            "text": "Vous avez gagné 5 parties"
+            "text": "Vous avez gagné 10 parties"
         },
         "icon": {
-            "item": "minecraft:coarse_dirt"
+            "id": "minecraft:terracotta"
         },
-        "frame": "task",
+        "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": false
@@ -22,3 +22,4 @@
     },
     "parent": "fourmilier:fourmilier_2"
 }
+

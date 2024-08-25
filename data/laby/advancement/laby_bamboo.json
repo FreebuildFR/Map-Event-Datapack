@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Bambouseraie",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Vous êtes arrivé au bout du labyrinthe"
+        },
+        "icon": {
+            "id": "minecraft:sugar_cane"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "laby_blackout": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "laby:laby_no_lights"
+}
+

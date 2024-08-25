@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Paré au lancement",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Vous êtes entré dans le jeu pour la première fois"
+        },
+        "icon": {
+            "id": "minecraft:slime_block"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "jump_start": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "jump:root"
+}

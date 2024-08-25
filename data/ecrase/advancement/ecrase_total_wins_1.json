@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Presse hydrolique",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Vous avez écrasé un adversaire pour la première fois"
+        },
+        "icon": {
+            "id": "minecraft:heavy_weighted_pressure_plate"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "ecrase_total_wins_1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "ecrase:ecrase_start"
+}
+

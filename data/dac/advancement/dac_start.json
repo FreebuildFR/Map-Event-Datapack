@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Le grand saut",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Vous êtes entré dans le jeu pour la première fois"
+        },
+        "icon": {
+            "id": "minecraft:salmon_bucket"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "dac_start": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "dac:root"
+}

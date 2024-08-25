@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Grelon",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Vous avez vaincu l'arène 5 fois",
+			"color": "aqua"
+        },
+        "icon": {
+            "id": "minecraft:packed_ice"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "pve_glace_win_3": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "pve:pve_glace_win_2"
+}
+

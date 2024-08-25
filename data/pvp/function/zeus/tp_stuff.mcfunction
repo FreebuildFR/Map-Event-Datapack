@@ -1,8 +1,8 @@
-item replace entity @s armor.chest with minecraft:golden_chestplate{display:{Name:"{\"text\":\"Teslarmure\"}"},HideFlags:5,Unbreakable:1b,Enchantments:[{id:"minecraft:protection",lvl:4},{id:"minecraft:binding_curse",lvl:1},{id:"minecraft:vanishing_curse",lvl:1}]} 1
-item replace entity @s armor.head with minecraft:chainmail_helmet{display:{Name:"{\"text\":\"Paratonnerre\"}"},HideFlags:5,Unbreakable:1b,Enchantments:[{id:"minecraft:projectile_protection",lvl:2},{id:"minecraft:binding_curse",lvl:1},{id:"minecraft:vanishing_curse",lvl:1}]} 1
-item replace entity @s armor.feet with minecraft:chainmail_boots{display:{Name:"{\"text\":\"Chausses d'orage\"}"},HideFlags:5,Unbreakable:1b,Enchantments:[{id:"minecraft:protection",lvl:3},{id:"minecraft:projectile_protection",lvl:1},{id:"minecraft:binding_curse",lvl:1},{id:"minecraft:vanishing_curse",lvl:1}]} 1
+item replace entity @s armor.chest with golden_chestplate[custom_name='"Teslarmure"',unbreakable={show_in_tooltip:false},enchantments={levels:{"minecraft:protection":4,"minecraft:binding_curse":1,"minecraft:vanishing_curse":1},show_in_tooltip:false}] 1
+item replace entity @s armor.head with chainmail_helmet[custom_name='"Paratonnerre"',unbreakable={show_in_tooltip:false},enchantments={levels:{"minecraft:projectile_protection":2,"minecraft:binding_curse":1,"minecraft:vanishing_curse":1},show_in_tooltip:false}] 1
+item replace entity @s armor.feet with chainmail_boots[custom_name='"Chausses d\'orage"',unbreakable={show_in_tooltip:false},enchantments={levels:{"minecraft:projectile_protection":1,"minecraft:protection":3,"minecraft:binding_curse":1,"minecraft:vanishing_curse":1},show_in_tooltip:false}] 1
 #item replace entity @s hotbar.1 with minecraft:cooked_mutton{HideFlags:5,Enchantments:[{id:"minecraft:vanishing_curse",lvl:1}]} 24
-item replace entity @s hotbar.0 with minecraft:bow{display:{Name:"{\"text\":\"Arc des tempètes\"}"},HideFlags:5,Unbreakable:1b,Enchantments:[{id:"minecraft:power",lvl:1},{id:"minecraft:infinity",lvl:1},{id:"minecraft:vanishing_curse",lvl:1}]} 1
-item replace entity @s weapon.offhand with minecraft:arrow{HideFlags:5} 1
-item replace entity @s armor.legs with minecraft:iron_leggings{display:{Name:"{\"text\":\"Bermudaverse\"}"},HideFlags:5,Unbreakable:1b,Enchantments:[{id:"minecraft:protection",lvl:3},{id:"minecraft:binding_curse",lvl:1},{id:"minecraft:vanishing_curse",lvl:1}]} 1
+item replace entity @s hotbar.0 with bow[custom_name='"Arc des tempètes"',unbreakable={show_in_tooltip:false},enchantments={levels:{"minecraft:power":1,"minecraft:infinity":1,"minecraft:vanishing_curse":1},show_in_tooltip:false}] 1
+item replace entity @s weapon.offhand with arrow 1
+item replace entity @s armor.legs with iron_leggings[custom_name='"Bermudaverse"',unbreakable={show_in_tooltip:false},enchantments={levels:{"minecraft:protection":3,"minecraft:binding_curse":1,"minecraft:vanishing_curse":1},show_in_tooltip:false}] 1
 spreadplayers 250.5 192.5 0 11 false @s

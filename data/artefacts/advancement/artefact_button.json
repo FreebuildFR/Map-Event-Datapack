@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Artefact #3",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Obtenu pour avoir associé les mondes et les couleurs"
+        },
+        "icon": {
+            "id": "minecraft:prismarine_shard"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "artefect_6": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+	"rewards": {"function": "artefacts:artefact_button"},
+    "parent": "artefacts:artefact_arcade"
+}
+

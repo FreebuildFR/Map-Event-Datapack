@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "On ne l'arrête plus",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Vous avez gagné 5 parties"
+        },
+        "icon": {
+            "id": "minecraft:tipped_arrow",
+            "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:fire_resistance"
+                }
+              }
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "music_win_3": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "music:music_win_2"
+}
+

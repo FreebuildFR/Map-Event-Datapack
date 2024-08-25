@@ -35,8 +35,6 @@ setblock 227 16 -55 minecraft:cobblestone_wall
 setblock 227 17 -55 minecraft:anvil[facing=east]
 setblock 227 18 -55 minecraft:grindstone[face=floor,facing=north]
 setblock 227 17 -56 minecraft:gray_wall_banner[facing=north]
-
-
 #Statue 6
 setblock 222 16 -49 minecraft:cobblestone_wall
 setblock 222 17 -49 minecraft:anvil[facing=south]

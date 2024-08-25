@@ -14,7 +14,7 @@ execute if entity @s[tag=ely_6] at @s run summon minecraft:armor_stand ~ ~ ~ {Cu
 execute if entity @s[tag=!ely_6] at @s run summon minecraft:armor_stand ~ ~ ~ {CustomName:'{"text":"█","color":"gray"}'}
 execute at @s run summon minecraft:armor_stand ~ ~ ~ {CustomName:'{"text":"█","color":"black"}'}
 
-execute if entity @s[tag=ely_0,tag=ely_1,tag=ely_2,tag=ely_3,tag=ely_4,tag=ely_5,tag=ely_6] run advancement grant @s only secret:s_4
+execute if entity @s[tag=ely_0,tag=ely_1,tag=ely_2,tag=ely_3,tag=ely_4,tag=ely_5,tag=ely_6] run advancement grant @s only secret:secret_elytra
 
 title @s title {"selector":"@e[type=armor_stand,limit=8,sort=nearest,name=\"█\",distance=..6]"}
 title @s subtitle {"text":"Zones visitées"}

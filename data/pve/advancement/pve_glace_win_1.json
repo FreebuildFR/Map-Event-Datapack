@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "flocon",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Vous avez vaincu l'arène 1 fois",
+			"color": "aqua"
+        },
+        "icon": {
+            "id": "minecraft:snow_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "pve_glace_win_1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "pve:pve_glace_start"
+}
+

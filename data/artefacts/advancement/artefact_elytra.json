@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Artefact #6",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Obtenu pour avoir fait preuve d'une grande adresse avec des ailes"
+        },
+        "icon": {
+            "id": "minecraft:prismarine_shard"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "artefact_elytra": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+	"rewards": {"function": "artefacts:artefact_elytra"},
+    "parent": "artefacts:artefact_pvp"
+}
+

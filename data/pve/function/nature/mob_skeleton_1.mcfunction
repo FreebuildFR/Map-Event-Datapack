@@ -1,1 +1,1 @@
-summon minecraft:skeleton ~ ~ ~ {HandItems:[{id:"minecraft:stone_button",Count:1b},{id:"minecraft:stone_button",Count:1b}],ArmorItems:[{},{},{},{id:"minecraft:stone",Count:1b}],PersistenceRequired:1b}
+summon minecraft:skeleton ~ ~ ~ {HandItems:[{id:"minecraft:stone_button",count:1},{id:"minecraft:stone_button",count:1}],ArmorItems:[{},{},{},{id:"minecraft:stone",count:1}],PersistenceRequired:1b}

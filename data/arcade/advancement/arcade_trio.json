@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "TRIO           ",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Vous avez fait un T R I P L E puissance 4"
+        },
+        "icon": {
+            "id": "minecraft:diamond_block"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "arcade_trio": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "arcade:arcade_start"
+}
+

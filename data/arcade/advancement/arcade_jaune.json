@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Jaune",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Vous avez fait un puissance 4 jaune"
+        },
+        "icon": {
+            "id": "minecraft:yellow_terracotta"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "arcade_jaune": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "arcade:arcade_start"
+}
+

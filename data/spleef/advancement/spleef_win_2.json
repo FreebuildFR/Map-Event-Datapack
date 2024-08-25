@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Sol instable",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Vous avez gagné 3 parties"
+        },
+        "icon": {
+            "id": "minecraft:snow_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "spleef_win_2": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "spleef:spleef_win_1"
+}
+
