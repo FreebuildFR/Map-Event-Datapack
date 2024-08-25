@@ -1,24 +1,25 @@
 {
     "display": {
         "title": {
-            "text": "Aplatisseur de villes",
+            "text": "Invincible",
             "color": "aqua"
         },
         "description": {
-            "text": "Vous avez écrasé des adversaires 10 fois"
+            "text": "Vous avez écrasé 5 adversaires sans mourir"
         },
         "icon": {
-            "id": "minecraft:iron_trapdoor"
+            "id": "minecraft:horn_coral"
         },
-        "frame": "task",
+        "frame": "goal",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": false
     },
     "criteria": {
-        "ecrase_2_1": {
+        "ecrase_win_streak_2": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "ecrase:ecrase_2"
+    "parent": "ecrase:ecrase_win_streak_1"
 }
+

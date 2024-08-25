@@ -1,14 +1,14 @@
 {
     "display": {
         "title": {
-            "text": "Invincible",
+            "text": "Pumped Up",
             "color": "aqua"
         },
         "description": {
-            "text": "Vous avez écrasé 5 adversaires sans mourir"
+            "text": "Vous êtes entré dans le jeu pour la première fois"
         },
         "icon": {
-            "id": "minecraft:horn_coral"
+            "id": "minecraft:stripped_dark_oak_wood"
         },
         "frame": "goal",
         "show_toast": true,
@@ -16,9 +16,9 @@
         "hidden": false
     },
     "criteria": {
-        "ecrase_3_1": {
+        "ecrase_start": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "ecrase:ecrase_3"
+    "parent": "ecrase:root"
 }

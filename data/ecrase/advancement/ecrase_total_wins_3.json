@@ -1,24 +1,25 @@
 {
     "display": {
         "title": {
-            "text": "Serial winner",
+            "text": "Compresseur de mondes",
             "color": "aqua"
         },
         "description": {
-            "text": "Vous avez écrasé 3 adversaires sans mourir"
+            "text": "Vous avez écrasé des adversaires 40 fois"
         },
         "icon": {
-            "id": "minecraft:horn_coral_fan"
+            "id": "minecraft:iron_block"
         },
-        "frame": "goal",
+        "frame": "task",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": false
     },
     "criteria": {
-        "ecrase_3": {
+        "ecrase_total_wins_3": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "ecrase:ecrase_1"
+    "parent": "ecrase:ecrase_total_wins_2"
 }
+

@@ -1,24 +1,25 @@
 {
     "display": {
         "title": {
-            "text": "Pumped Up",
+            "text": "Aplatisseur de villes",
             "color": "aqua"
         },
         "description": {
-            "text": "Vous êtes entré dans le jeu pour la première fois"
+            "text": "Vous avez écrasé des adversaires 10 fois"
         },
         "icon": {
-            "id": "minecraft:stripped_dark_oak_wood"
+            "id": "minecraft:iron_trapdoor"
         },
-        "frame": "goal",
+        "frame": "task",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": false
     },
     "criteria": {
-        "ecrase_1": {
+        "ecrase_total_wins_2": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "ecrase:root"
+    "parent": "ecrase:ecrase_total_wins_1"
 }
+

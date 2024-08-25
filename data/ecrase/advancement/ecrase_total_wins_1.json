@@ -16,9 +16,10 @@
         "hidden": false
     },
     "criteria": {
-        "ecrase_2": {
+        "ecrase_total_wins_1": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "ecrase:ecrase_1"
+    "parent": "ecrase:ecrase_start"
 }
+

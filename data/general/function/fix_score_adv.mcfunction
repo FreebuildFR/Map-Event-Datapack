@@ -2,10 +2,10 @@
 scoreboard players set @s[tag=jo_2024_player,scores={jo_2024=0}] jo_2024 1
 
 # Ecrase moi si tu peux
-scoreboard players set @s[advancements={ecrase:ecrase_2=true},scores={ecrase_total=..0}] ecrase_total 1
-scoreboard players set @s[advancements={ecrase:ecrase_2_1=true},scores={ecrase_total=..9}] ecrase_total 10
-scoreboard players set @s[advancements={ecrase:ecrase_3=true},scores={ecrase_total=..0}] ecrase_total 1
-scoreboard players set @s[advancements={ecrase:ecrase_3_1=true},scores={ecrase_total=..4}] ecrase_total 5
+scoreboard players set @s[advancements={ecrase:ecrase_total_wins_1=true},scores={ecrase_total=..0}] ecrase_total 1
+scoreboard players set @s[advancements={ecrase:ecrase_total_wins_2=true},scores={ecrase_total=..9}] ecrase_total 10
+scoreboard players set @s[advancements={ecrase:ecrase_win_streak_1=true},scores={ecrase_total=..0}] ecrase_total 1
+scoreboard players set @s[advancements={ecrase:ecrase_win_streak_2=true},scores={ecrase_total=..4}] ecrase_total 5
 
 # Fourmilier
 scoreboard players set @s[advancements={fourmilier:fourmilier_2=true},scores={fourmilier_win=..0}] fourmilier_win 1
@@ -69,6 +69,10 @@ scoreboard players set @s[advancements={pvp:pvp_5_111=true},scores={pvp_anci_kil
 
 # Joueur traite
 tag @s add score_avd_fixed
+
+
+
+
 
 
 
