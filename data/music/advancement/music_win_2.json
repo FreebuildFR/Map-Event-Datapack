@@ -9,7 +9,11 @@
         },
         "icon": {
             "id": "minecraft:tipped_arrow",
-			"nbt": "{Potion:\"minecraft:fire_resistance\"}"
+            "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:strength"
+                }
+              }
         },
         "frame": "task",
         "show_toast": true,

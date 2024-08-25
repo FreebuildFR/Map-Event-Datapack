@@ -9,7 +9,11 @@
         },
         "icon": {
             "id": "minecraft:tipped_arrow",
-			"nbt": "{Potion:\"minecraft:healing\"}"
+            "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:fire_resistance"
+                }
+              }
         },
         "frame": "task",
         "show_toast": true,

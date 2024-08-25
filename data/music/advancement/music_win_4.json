@@ -9,7 +9,11 @@
         },
         "icon": {
             "id": "minecraft:tipped_arrow",
-			"nbt": "{Potion:\"minecraft:strength\"}"
+            "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:healing"
+                }
+              }
         },
         "frame": "challenge",
         "show_toast": true,

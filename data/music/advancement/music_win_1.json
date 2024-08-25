@@ -9,7 +9,11 @@
         },
         "icon": {
             "id": "minecraft:tipped_arrow",
-			"nbt": "{Potion:\"minecraft:slow_falling\"}"
+            "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:slow_falling"
+                }
+              }
         },
         "frame": "task",
         "show_toast": true,
