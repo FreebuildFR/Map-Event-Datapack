@@ -20,5 +20,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "arc:arc_1"
+    "parent": "arc:arc_start"
 }

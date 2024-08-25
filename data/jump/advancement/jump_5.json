@@ -20,5 +20,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "jump:jump_1"
+    "parent": "jump:jump_start"
 }

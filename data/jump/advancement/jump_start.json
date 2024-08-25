@@ -16,7 +16,7 @@
         "hidden": false
     },
     "criteria": {
-        "jump_1": {
+        "jump_start": {
             "trigger": "minecraft:impossible"
         }
     },

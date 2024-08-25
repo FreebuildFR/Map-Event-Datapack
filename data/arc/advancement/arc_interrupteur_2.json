@@ -16,9 +16,10 @@
         "hidden": false
     },
     "criteria": {
-        "arc_3_1": {
+        "arc_interrupteur_2": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "arc:arc_3"
+    "parent": "arc:arc_interrupteur_1"
 }
+

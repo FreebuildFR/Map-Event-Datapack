@@ -1,14 +1,14 @@
 {
     "display": {
         "title": {
-            "text": "Illuminé",
+            "text": "Guillaume Tell",
             "color": "aqua"
         },
         "description": {
-            "text": "Vous avez allumé 50 interrupteurs"
+            "text": "Vous êtes entré dans le jeu pour la première fois"
         },
         "icon": {
-            "id": "minecraft:sea_lantern"
+            "id": "minecraft:apple"
         },
         "frame": "goal",
         "show_toast": true,
@@ -16,9 +16,9 @@
         "hidden": false
     },
     "criteria": {
-        "arc_3_11": {
+        "arc_start": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "arc:arc_3_1"
+    "parent": "arc:root"
 }
