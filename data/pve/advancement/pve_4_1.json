@@ -9,7 +9,7 @@
 			"color": "red"
         },
         "icon": {
-            "item": "minecraft:coal"
+            "id": "minecraft:coal"
         },
         "frame": "task",
         "show_toast": true,

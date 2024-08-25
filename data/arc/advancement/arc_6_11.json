@@ -8,7 +8,7 @@
             "text": "Vous avez fini le jeu 5 fois"
         },
         "icon": {
-            "item": "minecraft:spectral_arrow"
+            "id": "minecraft:spectral_arrow"
         },
         "frame": "challenge",
         "show_toast": true,

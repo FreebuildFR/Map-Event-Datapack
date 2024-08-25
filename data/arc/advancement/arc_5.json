@@ -8,7 +8,7 @@
             "text": "Vous avez presque tout fait exploser, heureusement les fleches ne sont pas en feu !"
         },
         "icon": {
-            "item": "minecraft:tnt"
+            "id": "minecraft:tnt"
         },
         "frame": "goal",
         "show_toast": true,

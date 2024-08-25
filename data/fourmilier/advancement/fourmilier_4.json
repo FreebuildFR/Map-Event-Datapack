@@ -8,7 +8,7 @@
             "text": "Vous avez gagné 10 parties"
         },
         "icon": {
-            "item": "minecraft:terracotta"
+            "id": "minecraft:terracotta"
         },
         "frame": "challenge",
         "show_toast": true,

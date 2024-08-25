@@ -8,7 +8,7 @@
             "text": "Obtenu pour avoir été le plus béni de toute l'arène"
         },
         "icon": {
-            "item": "minecraft:prismarine_shard"
+            "id": "minecraft:prismarine_shard"
         },
         "frame": "challenge",
         "show_toast": true,

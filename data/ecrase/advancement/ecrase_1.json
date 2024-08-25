@@ -8,7 +8,7 @@
             "text": "Vous êtes entré dans le jeu pour la première fois"
         },
         "icon": {
-            "item": "minecraft:stripped_dark_oak_wood"
+            "id": "minecraft:stripped_dark_oak_wood"
         },
         "frame": "goal",
         "show_toast": true,

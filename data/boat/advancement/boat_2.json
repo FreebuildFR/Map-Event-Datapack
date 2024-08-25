@@ -8,7 +8,7 @@
             "text": "Vous avez fait 10 tours de circuit"
         },
         "icon": {
-            "item": "minecraft:ice"
+            "id": "minecraft:ice"
         },
         "frame": "goal",
         "show_toast": true,

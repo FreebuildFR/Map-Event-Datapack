@@ -8,7 +8,7 @@
             "text": "Vous avez vaincu 5 ennemis dans cette arène"
         },
         "icon": {
-            "item": "minecraft:cobblestone"
+            "id": "minecraft:cobblestone"
         },
         "frame": "task",
         "show_toast": true,

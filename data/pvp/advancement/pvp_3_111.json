@@ -8,7 +8,7 @@
             "text": "Vous avez vaincu 30 ennemis dans cette arène"
         },
         "icon": {
-            "item": "minecraft:diamond_block"
+            "id": "minecraft:diamond_block"
         },
         "frame": "challenge",
         "show_toast": true,

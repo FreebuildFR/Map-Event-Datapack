@@ -8,7 +8,7 @@
             "text": "Vous avec fait un dé à coudre dans cette map pour la première fois"
         },
         "icon": {
-            "item": "minecraft:nether_star"
+            "id": "minecraft:nether_star"
         },
         "frame": "task",
         "show_toast": true,

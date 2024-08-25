@@ -8,7 +8,7 @@
             "text": "Vous êtes entré dans le jeu pour la première fois"
         },
         "icon": {
-            "item": "minecraft:jukebox"
+            "id": "minecraft:jukebox"
         },
         "frame": "goal",
         "show_toast": true,

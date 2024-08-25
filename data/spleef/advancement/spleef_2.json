@@ -8,7 +8,7 @@
             "text": "Vous avez cassé 500 blocs de neige"
         },
         "icon": {
-            "item": "minecraft:diamond_shovel"
+            "id": "minecraft:diamond_shovel"
         },
         "frame": "goal",
         "show_toast": true,

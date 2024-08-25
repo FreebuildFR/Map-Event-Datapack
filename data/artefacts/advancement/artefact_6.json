@@ -8,7 +8,7 @@
             "text": "Obtenu pour avoir associé les mondes et les couleurs"
         },
         "icon": {
-            "item": "minecraft:prismarine_shard"
+            "id": "minecraft:prismarine_shard"
         },
         "frame": "challenge",
         "show_toast": true,

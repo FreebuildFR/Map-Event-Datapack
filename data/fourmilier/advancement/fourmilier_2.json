@@ -8,7 +8,7 @@
             "text": "Vous avez gagné 1 partie"
         },
         "icon": {
-            "item": "minecraft:dirt"
+            "id": "minecraft:dirt"
         },
         "frame": "task",
         "show_toast": true,

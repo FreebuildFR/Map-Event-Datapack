@@ -9,7 +9,7 @@
 			"color": "red"
         },
         "icon": {
-            "item": "minecraft:blaze_powder"
+            "id": "minecraft:blaze_powder"
         },
         "frame": "challenge",
         "show_toast": true,

@@ -8,7 +8,7 @@
             "text": "Vous avez vaincu 30 ennemis dans cette arène"
         },
         "icon": {
-            "item": "minecraft:magma_block"
+            "id": "minecraft:magma_block"
         },
         "frame": "challenge",
         "show_toast": true,

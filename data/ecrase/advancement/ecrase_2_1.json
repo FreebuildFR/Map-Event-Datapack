@@ -8,7 +8,7 @@
             "text": "Vous avez écrasé des adversaires 10 fois"
         },
         "icon": {
-            "item": "minecraft:iron_trapdoor"
+            "id": "minecraft:iron_trapdoor"
         },
         "frame": "task",
         "show_toast": true,

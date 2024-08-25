@@ -8,7 +8,7 @@
             "text": "Vous avec fait un dé à coudre dans cette map pour la première fois"
         },
         "icon": {
-            "item": "minecraft:oak_sapling"
+            "id": "minecraft:oak_sapling"
         },
         "frame": "task",
         "show_toast": true,

@@ -8,7 +8,7 @@
             "text": "Vous avec fait un dé à coudre dans cette map pour la première fois"
         },
         "icon": {
-            "item": "minecraft:dragon_head"
+            "id": "minecraft:dragon_head"
         },
         "frame": "task",
         "show_toast": true,

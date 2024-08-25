@@ -8,7 +8,7 @@
             "text": "Vous avez gagné 10 parties"
         },
         "icon": {
-            "item": "minecraft:ice"
+            "id": "minecraft:ice"
         },
         "frame": "challenge",
         "show_toast": true,

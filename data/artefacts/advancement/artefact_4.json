@@ -8,7 +8,7 @@
             "text": "Obtenu pour avoir fait preuve d'une grande adresse avec des ailes"
         },
         "icon": {
-            "item": "minecraft:prismarine_shard"
+            "id": "minecraft:prismarine_shard"
         },
         "frame": "challenge",
         "show_toast": true,

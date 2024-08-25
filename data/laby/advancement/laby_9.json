@@ -8,7 +8,7 @@
             "text": "Vous êtes arrivé au bout du labyrinthe"
         },
         "icon": {
-            "item": "minecraft:sugar_cane"
+            "id": "minecraft:sugar_cane"
         },
         "frame": "task",
         "show_toast": true,

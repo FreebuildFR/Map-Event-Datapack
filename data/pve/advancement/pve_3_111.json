@@ -9,7 +9,7 @@
 			"color": "aqua"
         },
         "icon": {
-            "item": "minecraft:packed_ice"
+            "id": "minecraft:packed_ice"
         },
         "frame": "challenge",
         "show_toast": true,

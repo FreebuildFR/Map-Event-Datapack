@@ -8,7 +8,7 @@
             "text": "Vous avez gagné 5 parties"
         },
         "icon": {
-            "item": "minecraft:tipped_arrow",
+            "id": "minecraft:tipped_arrow",
 			"nbt": "{Potion:\"minecraft:healing\"}"
         },
         "frame": "task",

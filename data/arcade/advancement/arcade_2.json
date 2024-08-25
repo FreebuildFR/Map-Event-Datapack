@@ -8,7 +8,7 @@
             "text": "Vous avez fait un puissance 4 jaune"
         },
         "icon": {
-            "item": "minecraft:yellow_terracotta"
+            "id": "minecraft:yellow_terracotta"
         },
         "frame": "goal",
         "show_toast": true,

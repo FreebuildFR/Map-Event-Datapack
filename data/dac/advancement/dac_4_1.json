@@ -8,7 +8,7 @@
             "text": "Ce n'était pas le bon côté !"
         },
         "icon": {
-            "item": "minecraft:cooked_porkchop"
+            "id": "minecraft:cooked_porkchop"
         },
         "frame": "goal",
         "show_toast": true,

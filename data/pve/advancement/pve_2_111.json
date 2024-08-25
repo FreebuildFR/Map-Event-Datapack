@@ -8,7 +8,7 @@
             "text": "Vous avez vaincu l'arène 5 fois"
         },
         "icon": {
-            "item": "minecraft:grass_block"
+            "id": "minecraft:grass_block"
         },
         "frame": "challenge",
         "show_toast": true,
