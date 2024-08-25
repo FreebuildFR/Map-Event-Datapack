@@ -1,24 +1,24 @@
 {
     "display": {
         "title": {
-            "text": "La main verte",
-            "color": "green"
+            "text": "Quelle cuisson ?",
+            "color": "aqua"
         },
         "description": {
-            "text": "Vous avez vaincu l'arène 5 fois"
+            "text": "Vous êtes entré dans le jeu pour la première fois"
         },
         "icon": {
-            "id": "minecraft:grass_block"
+            "id": "minecraft:cooked_beef"
         },
-        "frame": "challenge",
+        "frame": "goal",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": false
     },
     "criteria": {
-        "pve_2_111": {
+        "pve_start": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "pve:pve_2_11"
+    "parent": "pve:root"
 }

@@ -1,14 +1,15 @@
 {
     "display": {
         "title": {
-            "text": "Belle plante",
-            "color": "green"
+            "text": "Infernale",
+            "color": "red"
         },
         "description": {
-            "text": "Vous avez vaincu l'arène 3 fois"
+            "text": "Vous êtes entré dans l'arène infernale pour la première fois",
+			"color": "red"
         },
         "icon": {
-            "id": "minecraft:tall_grass"
+            "id": "minecraft:red_terracotta"
         },
         "frame": "task",
         "show_toast": true,
@@ -16,9 +17,10 @@
         "hidden": false
     },
     "criteria": {
-        "pve_2_11": {
+        "pve_infernal_start": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "pve:pve_2_1"
+    "parent": "pve:pve_start"
 }
+

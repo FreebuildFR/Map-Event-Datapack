@@ -1,14 +1,15 @@
 {
     "display": {
         "title": {
-            "text": "Jeune pousse",
-            "color": "green"
+            "text": "glacon",
+            "color": "aqua"
         },
         "description": {
-            "text": "Vous avez vaincu l'arène 1 fois"
+            "text": "Vous avez vaincu l'arène 3 fois",
+			"color": "aqua"
         },
         "icon": {
-            "id": "minecraft:seagrass"
+            "id": "minecraft:ice"
         },
         "frame": "task",
         "show_toast": true,
@@ -16,9 +17,10 @@
         "hidden": false
     },
     "criteria": {
-        "pve_2_1": {
+        "pve_glace_win_2": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "pve:pve_2"
+    "parent": "pve:pve_glace_win_1"
 }
+

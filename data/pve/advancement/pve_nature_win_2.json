@@ -1,15 +1,14 @@
 {
     "display": {
         "title": {
-            "text": "flocon",
-            "color": "aqua"
+            "text": "Belle plante",
+            "color": "green"
         },
         "description": {
-            "text": "Vous avez vaincu l'arène 1 fois",
-			"color": "aqua"
+            "text": "Vous avez vaincu l'arène 3 fois"
         },
         "icon": {
-            "id": "minecraft:snow_block"
+            "id": "minecraft:tall_grass"
         },
         "frame": "task",
         "show_toast": true,
@@ -17,9 +16,10 @@
         "hidden": false
     },
     "criteria": {
-        "pve_3_1": {
+        "pve_nature_win_2": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "pve:pve_3"
+    "parent": "pve:pve_nature_win_1"
 }
+

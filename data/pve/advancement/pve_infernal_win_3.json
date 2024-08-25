@@ -1,25 +1,26 @@
 {
     "display": {
         "title": {
-            "text": "Glace   ",
-            "color": "aqua"
+            "text": "Flamme",
+            "color": "red"
         },
         "description": {
-            "text": "Vous êtes entré dans l'arène de glace pour la première fois",
-			"color": "aqua"
+            "text": "Vous avez vaincu l'arène 5 fois",
+			"color": "red"
         },
         "icon": {
-            "id": "minecraft:light_blue_terracotta"
+            "id": "minecraft:blaze_powder"
         },
-        "frame": "task",
+        "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": false
     },
     "criteria": {
-        "pve_3": {
+        "pve_infernal_win_3": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "pve:pve_1"
+    "parent": "pve:pve_infernal_win_2"
 }
+

@@ -1,25 +1,26 @@
 {
     "display": {
         "title": {
-            "text": "Grelon",
+            "text": "flocon",
             "color": "aqua"
         },
         "description": {
-            "text": "Vous avez vaincu l'arène 5 fois",
+            "text": "Vous avez vaincu l'arène 1 fois",
 			"color": "aqua"
         },
         "icon": {
-            "id": "minecraft:packed_ice"
+            "id": "minecraft:snow_block"
         },
-        "frame": "challenge",
+        "frame": "task",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": false
     },
     "criteria": {
-        "pve_3_111": {
+        "pve_glace_win_1": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "pve:pve_3_11"
+    "parent": "pve:pve_glace_start"
 }
+

@@ -39,15 +39,15 @@ scoreboard players set @s[advancements={spleef:spleef_3_11=true},scores={spleef_
 scoreboard players set @s[advancements={spleef:spleef_3_111=true},scores={spleef_win=..9}] spleef_win 10
 
 # PVE
-scoreboard players set @s[advancements={pve:pve_2_1=true},scores={pve_nature_win=..0}] pve_nature_win 1
-scoreboard players set @s[advancements={pve:pve_2_11=true},scores={pve_nature_win=..2}] pve_nature_win 3
-scoreboard players set @s[advancements={pve:pve_2_111=true},scores={pve_nature_win=..4}] pve_nature_win 10
-scoreboard players set @s[advancements={pve:pve_3_1=true},scores={pve_hiver_win=..0}] pve_hiver_win 1
-scoreboard players set @s[advancements={pve:pve_3_11=true},scores={pve_hiver_win=..2}] pve_hiver_win 3
-scoreboard players set @s[advancements={pve:pve_3_111=true},scores={pve_hiver_win=..4}] pve_hiver_win 10
-scoreboard players set @s[advancements={pve:pve_4_1=true},scores={pve_enfer_win=..0}] pve_enfer_win 1
-scoreboard players set @s[advancements={pve:pve_4_11=true},scores={pve_enfer_win=..2}] pve_enfer_win 3
-scoreboard players set @s[advancements={pve:pve_4_111=true},scores={pve_enfer_win=..4}] pve_enfer_win 10
+scoreboard players set @s[advancements={pve:pve_nature_win_1=true},scores={pve_nature_win=..0}] pve_nature_win 1
+scoreboard players set @s[advancements={pve:pve_nature_win_2=true},scores={pve_nature_win=..2}] pve_nature_win 3
+scoreboard players set @s[advancements={pve:pve_nature_win_3=true},scores={pve_nature_win=..4}] pve_nature_win 10
+scoreboard players set @s[advancements={pve:pve_glace_win_1=true},scores={pve_hiver_win=..0}] pve_hiver_win 1
+scoreboard players set @s[advancements={pve:pve_glace_win_2=true},scores={pve_hiver_win=..2}] pve_hiver_win 3
+scoreboard players set @s[advancements={pve:pve_glace_win_3=true},scores={pve_hiver_win=..4}] pve_hiver_win 10
+scoreboard players set @s[advancements={pve:pve_infernal_win_1=true},scores={pve_enfer_win=..0}] pve_enfer_win 1
+scoreboard players set @s[advancements={pve:pve_infernal_win_2=true},scores={pve_enfer_win=..2}] pve_enfer_win 3
+scoreboard players set @s[advancements={pve:pve_infernal_win_3=true},scores={pve_enfer_win=..4}] pve_enfer_win 10
 
 # PVP
 scoreboard players set @s[advancements={pvp:pvp_2=true},scores={pvp_zeus_kill=..0}] pvp_zeus_kill 1
