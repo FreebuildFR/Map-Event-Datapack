@@ -15,4 +15,4 @@ execute positioned 430.14 11.65 73.00 run kill @e[type=area_effect_cloud,dx=90,d
 execute positioned 430.14 11.65 73.00 as @e[type=minecraft:falling_block,dx=90,dy=20,dz=90] at @s run tp @s ~ -50 ~
 
 #mob mecaniques
-execute positioned 430.14 11.65 73.00 as @e[type=turtle,dx=90,dy=20,dz=90] at @s if entity @p[distance=..3] run summon minecraft:creeper ~ ~ ~ {Fuse:0,Ignited:1b}
+execute positioned 430.14 11.65 73.00 as @e[type=turtle,dx=90,dy=20,dz=90] at @s if entity @p[distance=..3] run summon creeper ~ ~ ~ {Fuse:0}
