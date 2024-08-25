@@ -1,24 +1,24 @@
 {
     "display": {
         "title": {
-            "text": "20000 lieues sous la terre",
+            "text": "Chasse à la fourmi",
             "color": "aqua"
         },
         "description": {
-            "text": "Vous avez gagné 10 parties"
+            "text": "Vous êtes entré dans le jeu pour la première fois"
         },
         "icon": {
-            "id": "minecraft:terracotta"
+            "id": "minecraft:coal"
         },
-        "frame": "challenge",
+        "frame": "goal",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": false
     },
     "criteria": {
-        "fourmilier_4": {
+        "fourmilier_start": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "fourmilier:fourmilier_3"
+    "parent": "fourmilier:root"
 }

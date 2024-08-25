@@ -8,9 +8,9 @@ scoreboard players set @s[advancements={ecrase:ecrase_win_streak_1=true},scores=
 scoreboard players set @s[advancements={ecrase:ecrase_win_streak_2=true},scores={ecrase_total=..4}] ecrase_total 5
 
 # Fourmilier
-scoreboard players set @s[advancements={fourmilier:fourmilier_2=true},scores={fourmilier_win=..0}] fourmilier_win 1
-scoreboard players set @s[advancements={fourmilier:fourmilier_3=true},scores={fourmilier_win=..4}] fourmilier_win 5
-scoreboard players set @s[advancements={fourmilier:fourmilier_4=true},scores={fourmilier_win=..9}] fourmilier_win 10
+scoreboard players set @s[advancements={fourmilier:fourmilier_1=true},scores={fourmilier_win=..0}] fourmilier_win 1
+scoreboard players set @s[advancements={fourmilier:fourmilier_2=true},scores={fourmilier_win=..4}] fourmilier_win 5
+scoreboard players set @s[advancements={fourmilier:fourmilier_3=true},scores={fourmilier_win=..9}] fourmilier_win 10
 
 # Tir a l'arc
 scoreboard players set @s[advancements={arc:arc_interrupteur_1=true},scores={arc_interrupteur=..0}] arc_interrupteur 1
@@ -69,6 +69,9 @@ scoreboard players set @s[advancements={pvp:pvp_5_111=true},scores={pvp_anci_kil
 
 # Joueur traite
 tag @s add score_avd_fixed
+
+
+
 
 
 
