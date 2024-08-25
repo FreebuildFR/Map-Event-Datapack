@@ -1,14 +1,14 @@
 {
     "display": {
         "title": {
-            "text": "L'oeil de faucon",
+            "text": "Amateur de sensations fortes",
             "color": "aqua"
         },
         "description": {
-            "text": "Vous avez fini le jeu pour la première fois"
+            "text": "Vous avez fini le jeu 3 fois"
         },
         "icon": {
-            "id": "minecraft:arrow"
+            "id": "minecraft:tipped_arrow"
         },
         "frame": "task",
         "show_toast": true,
@@ -16,9 +16,10 @@
         "hidden": false
     },
     "criteria": {
-        "arc_6": {
+        "arc_win_2": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "arc:arc_start"
+    "parent": "arc:arc_win_1"
 }
+

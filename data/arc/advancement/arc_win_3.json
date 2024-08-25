@@ -1,24 +1,25 @@
 {
     "display": {
         "title": {
-            "text": "Amateur de sensations fortes",
+            "text": "Maitre de l'arc",
             "color": "aqua"
         },
         "description": {
-            "text": "Vous avez fini le jeu 3 fois"
+            "text": "Vous avez fini le jeu 5 fois"
         },
         "icon": {
-            "id": "minecraft:tipped_arrow"
+            "id": "minecraft:spectral_arrow"
         },
-        "frame": "task",
+        "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": false
     },
     "criteria": {
-        "arc_6_1": {
+        "arc_win_3": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "arc:arc_6"
+    "parent": "arc:arc_win_2"
 }
+

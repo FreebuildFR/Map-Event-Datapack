@@ -16,9 +16,9 @@ scoreboard players set @s[advancements={fourmilier:fourmilier_3=true},scores={fo
 scoreboard players set @s[advancements={arc:arc_interrupteur_1=true},scores={arc_interrupteur=..0}] arc_interrupteur 1
 scoreboard players set @s[advancements={arc:arc_interrupteur_2=true},scores={arc_interrupteur=..29}] arc_interrupteur 30
 scoreboard players set @s[advancements={arc:arc_interrupteur_3=true},scores={arc_interrupteur=..49}] arc_interrupteur 50
-scoreboard players set @s[advancements={arc:arc_6=true},scores={arc_win=..0}] arc_win 1
-scoreboard players set @s[advancements={arc:arc_6_1=true},scores={arc_win=..2}] arc_win 3
-scoreboard players set @s[advancements={arc:arc_6_11=true},scores={arc_win=..4}] arc_win 5
+scoreboard players set @s[advancements={arc:arc_win_1=true},scores={arc_win=..0}] arc_win 1
+scoreboard players set @s[advancements={arc:arc_win_2=true},scores={arc_win=..2}] arc_win 3
+scoreboard players set @s[advancements={arc:arc_win_3=true},scores={arc_win=..4}] arc_win 5
 
 # Chaises musicales
 scoreboard players set @s[advancements={music:music_3=true},scores={music_win=..0}] arc_win 1
@@ -69,6 +69,9 @@ scoreboard players set @s[advancements={pvp:pvp_5_111=true},scores={pvp_anci_kil
 
 # Joueur traite
 tag @s add score_avd_fixed
+
+
+
 
 
 

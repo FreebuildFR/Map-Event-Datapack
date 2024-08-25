@@ -1,24 +1,25 @@
 {
     "display": {
         "title": {
-            "text": "Maitre de l'arc",
+            "text": "L'oeil de faucon",
             "color": "aqua"
         },
         "description": {
-            "text": "Vous avez fini le jeu 5 fois"
+            "text": "Vous avez fini le jeu pour la première fois"
         },
         "icon": {
-            "id": "minecraft:spectral_arrow"
+            "id": "minecraft:arrow"
         },
-        "frame": "challenge",
+        "frame": "task",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": false
     },
     "criteria": {
-        "arc_6_11": {
+        "arc_win_1": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "arc:arc_6_1"
+    "parent": "arc:arc_start"
 }
+

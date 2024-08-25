@@ -16,9 +16,10 @@
         "hidden": false
     },
     "criteria": {
-        "arc_5": {
+        "arc_tnt": {
             "trigger": "minecraft:impossible"
         }
     },
     "parent": "arc:arc_start"
 }
+
