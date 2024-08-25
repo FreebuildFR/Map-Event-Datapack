@@ -16,10 +16,11 @@
         "hidden": false
     },
     "criteria": {
-        "artefact_1": {
+        "artefact_jump": {
             "trigger": "minecraft:impossible"
         }
     },
-	"rewards": {"function": "artefacts:artefact_1"},
-    "parent": "artefacts:artefact_5"
+	"rewards": {"function": "artefacts:artefact_jump"},
+    "parent": "artefacts:artefact_pvp"
 }
+

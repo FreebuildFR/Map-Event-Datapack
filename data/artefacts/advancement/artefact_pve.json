@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "text": "Artefact #2",
+            "text": "Artefact #4",
             "color": "aqua"
         },
         "description": {
-            "text": "Obtenu pour avoir miné un artefact avec une flèche"
+            "text": "Obtenu pour avoir acquis tous les succès en arène PvE"
         },
         "icon": {
             "id": "minecraft:prismarine_shard"
@@ -16,10 +16,10 @@
         "hidden": false
     },
     "criteria": {
-        "artefact_7": {
+        "artefact_pve": {
             "trigger": "minecraft:impossible"
         }
     },
-	"rewards": {"function": "artefacts:artefact_7"},
-    "parent": "artefacts:artefact_3"
+	"rewards": {"function": "artefacts:artefact_pve"},
+    "parent": "artefacts:root"
 }

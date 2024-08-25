@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "text": "Artefact #4",
+            "text": "Artefact #1",
             "color": "aqua"
         },
         "description": {
-            "text": "Obtenu pour avoir acquis tous les succès en arène PvE"
+            "text": "Obtenu pour avoir fait le score maximal au puissance 4"
         },
         "icon": {
             "id": "minecraft:prismarine_shard"
@@ -16,10 +16,10 @@
         "hidden": false
     },
     "criteria": {
-        "artefact_2": {
+        "artefact_arcade": {
             "trigger": "minecraft:impossible"
         }
     },
-	"rewards": {"function": "artefacts:artefact_2"},
+	"rewards": {"function": "artefacts:artefact_arcade"},
     "parent": "artefacts:root"
 }

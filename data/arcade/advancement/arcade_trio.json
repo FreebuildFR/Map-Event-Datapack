@@ -16,9 +16,10 @@
         "hidden": false
     },
     "criteria": {
-        "arcade_5": {
+        "arcade_trio": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "arcade:arcade_1"
+    "parent": "arcade:arcade_start"
 }
+

@@ -1,14 +1,14 @@
 {
     "display": {
         "title": {
-            "text": "Player Select",
+            "text": "Jaune",
             "color": "aqua"
         },
         "description": {
-            "text": "Vous êtes entré dans le jeu pour la première fois"
+            "text": "Vous avez fait un puissance 4 jaune"
         },
         "icon": {
-            "id": "minecraft:comparator"
+            "id": "minecraft:yellow_terracotta"
         },
         "frame": "goal",
         "show_toast": true,
@@ -16,9 +16,10 @@
         "hidden": false
     },
     "criteria": {
-        "arcade_1": {
+        "arcade_jaune": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "arcade:root"
+    "parent": "arcade:arcade_start"
 }
+

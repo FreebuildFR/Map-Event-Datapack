@@ -1,14 +1,14 @@
 {
     "display": {
         "title": {
-            "text": "Jaune",
+            "text": "Duo       ",
             "color": "aqua"
         },
         "description": {
-            "text": "Vous avez fait un puissance 4 jaune"
+            "text": "Vous avez fait un DOUBLE puissance 4"
         },
         "icon": {
-            "id": "minecraft:yellow_terracotta"
+            "id": "minecraft:gold_block"
         },
         "frame": "goal",
         "show_toast": true,
@@ -16,9 +16,11 @@
         "hidden": false
     },
     "criteria": {
-        "arcade_2": {
+        "arcade_duo": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "arcade:arcade_1"
+    "parent": "arcade:arcade_start"
 }
+
+

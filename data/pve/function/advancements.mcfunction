@@ -11,4 +11,4 @@ advancement grant @a[scores={pve_enfer_win=1..}] only pve:pve_4_1
 advancement grant @a[scores={pve_enfer_win=3..}] only pve:pve_4_11
 advancement grant @a[scores={pve_enfer_win=5..}] only pve:pve_4_111
 
-advancement grant @a[scores={pve_nature_win=5..,pve_hiver_win=5..,pve_enfer_win=5..}] only artefacts:artefact_2
+advancement grant @a[scores={pve_nature_win=5..,pve_hiver_win=5..,pve_enfer_win=5..}] only artefacts:artefact_pve
