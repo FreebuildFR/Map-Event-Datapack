@@ -1,14 +1,14 @@
 {
     "display": {
         "title": {
-            "text": "La vallée du vent",
+            "text": "Brasier",
             "color": "aqua"
         },
         "description": {
             "text": "Vous êtes arrivé au bout du jump"
         },
         "icon": {
-            "id": "minecraft:string"
+            "id": "minecraft:magma_block"
         },
         "frame": "task",
         "show_toast": true,
@@ -16,9 +16,10 @@
         "hidden": false
     },
     "criteria": {
-        "jump_2": {
+        "jump_brasier": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "jump:jump_4"
+    "parent": "jump:jump_start"
 }
+

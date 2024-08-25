@@ -1,14 +1,14 @@
 {
     "display": {
         "title": {
-            "text": "Brasier",
+            "text": "Le laboratoire à effets",
             "color": "aqua"
         },
         "description": {
             "text": "Vous êtes arrivé au bout du jump"
         },
         "icon": {
-            "id": "minecraft:magma_block"
+            "id": "minecraft:potion"
         },
         "frame": "task",
         "show_toast": true,
@@ -16,7 +16,7 @@
         "hidden": false
     },
     "criteria": {
-        "jump_5": {
+        "jump_labo": {
             "trigger": "minecraft:impossible"
         }
     },

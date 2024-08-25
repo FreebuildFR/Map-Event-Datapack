@@ -1,14 +1,14 @@
 {
     "display": {
         "title": {
-            "text": "Le laboratoire à effets",
+            "text": "La vallée du vent",
             "color": "aqua"
         },
         "description": {
             "text": "Vous êtes arrivé au bout du jump"
         },
         "icon": {
-            "id": "minecraft:potion"
+            "id": "minecraft:string"
         },
         "frame": "task",
         "show_toast": true,
@@ -16,9 +16,9 @@
         "hidden": false
     },
     "criteria": {
-        "jump_3": {
+        "jump_vallee_vent": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "jump:jump_5"
+    "parent": "jump:jump_start"
 }

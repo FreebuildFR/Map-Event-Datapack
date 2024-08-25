@@ -26,4 +26,4 @@ execute as @a[x=-148,y=33, z=-448,dx=18,dy=6,dz=51, tag=Effet] at @s[x=-148, y=3
 
 execute as @a[x=-148,y=33, z=-448,dx=18,dy=6,dz=51, tag=Effet] at @s if block ~ ~-1 ~ #wool run tag @s remove Effet
 
-execute positioned -141.78 33.00 -451.77 run advancement grant @a[dx=6,dy=3,dz=4] only jump:jump_3
+execute positioned -141.78 33.00 -451.77 run advancement grant @a[dx=6,dy=3,dz=4] only jump:jump_labo

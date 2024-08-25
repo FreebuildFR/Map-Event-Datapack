@@ -1,24 +1,25 @@
 {
     "display": {
         "title": {
-            "text": "Soucoupe",
+            "text": "Spawn",
             "color": "aqua"
         },
         "description": {
             "text": "Vous êtes arrivé au bout du jump"
         },
         "icon": {
-            "id": "minecraft:nether_star"
+            "id": "minecraft:kelp"
         },
-        "frame": "task",
+        "frame": "goal",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": false
     },
     "criteria": {
-        "jump_6": {
+        "jump_spawn": {
             "trigger": "minecraft:impossible"
         }
     },
     "parent": "jump:jump_start"
 }
+
