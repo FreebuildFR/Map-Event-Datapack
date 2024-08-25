@@ -1,1 +1,1 @@
-summon drowned ~ ~ ~ {PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:fern",count:1,tag:{AttributeModifiers:[{AttributeName:"generic.movement_speed",Name:"generic.movement_speed",Amount:1,Operation:1,UUIDLeast:958314,UUIDMost:177462}]}}]}
+summon drowned ~ ~ ~ {PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:fern",count:1}]}
