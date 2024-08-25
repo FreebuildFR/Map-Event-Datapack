@@ -32,11 +32,11 @@ scoreboard players set @s[advancements={boat:boat_alpes=true},scores={boat_lap_2
 scoreboard players set @s[advancements={boat:boat_noel=true},scores={boat_lap_3=..9}] boat_lap_3 10
 
 # Spleef
-scoreboard players set @s[advancements={spleef:spleef_2=true},scores={spleef_snow=..499}] spleef_snow 500
-scoreboard players set @s[advancements={spleef:spleef_3=true},scores={spleef_win=..0}] spleef_win 1
-scoreboard players set @s[advancements={spleef:spleef_3_1=true},scores={spleef_win=..2}] spleef_win 3
-scoreboard players set @s[advancements={spleef:spleef_3_11=true},scores={spleef_win=..4}] spleef_win 5
-scoreboard players set @s[advancements={spleef:spleef_3_111=true},scores={spleef_win=..9}] spleef_win 10
+scoreboard players set @s[advancements={spleef:spleef_blocks_broken=true},scores={spleef_snow=..499}] spleef_snow 500
+scoreboard players set @s[advancements={spleef:spleef_win_1=true},scores={spleef_win=..0}] spleef_win 1
+scoreboard players set @s[advancements={spleef:spleef_win_2=true},scores={spleef_win=..2}] spleef_win 3
+scoreboard players set @s[advancements={spleef:spleef_win_3=true},scores={spleef_win=..4}] spleef_win 5
+scoreboard players set @s[advancements={spleef:spleef_win_4=true},scores={spleef_win=..9}] spleef_win 10
 
 # PVE
 scoreboard players set @s[advancements={pve:pve_nature_win_1=true},scores={pve_nature_win=..0}] pve_nature_win 1
@@ -69,6 +69,11 @@ scoreboard players set @s[advancements={pvp:pvp_antik_win_3=true},scores={pvp_an
 
 # Joueur traite
 tag @s add score_avd_fixed
+
+
+
+
+
 
 
 

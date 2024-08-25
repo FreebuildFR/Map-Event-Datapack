@@ -16,9 +16,10 @@
         "hidden": false
     },
     "criteria": {
-        "spleef_3": {
+        "spleef_win_1": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "spleef:spleef_1"
+    "parent": "spleef:spleef_start"
 }
+

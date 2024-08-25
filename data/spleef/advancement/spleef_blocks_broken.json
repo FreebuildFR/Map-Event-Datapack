@@ -1,24 +1,25 @@
 {
     "display": {
         "title": {
-            "text": "Sol instable",
+            "text": "Dameuse",
             "color": "aqua"
         },
         "description": {
-            "text": "Vous avez gagné 3 parties"
+            "text": "Vous avez cassé 500 blocs de neige"
         },
         "icon": {
-            "id": "minecraft:snow_block"
+            "id": "minecraft:diamond_shovel"
         },
-        "frame": "task",
+        "frame": "goal",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": false
     },
     "criteria": {
-        "spleef_3_1": {
+        "spleef_blocks_broken": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "spleef:spleef_3"
+    "parent": "spleef:spleef_start"
 }
+

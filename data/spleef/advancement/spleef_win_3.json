@@ -1,24 +1,25 @@
 {
     "display": {
         "title": {
-            "text": "Chasse-neige",
+            "text": "Avalanche",
             "color": "aqua"
         },
         "description": {
-            "text": "Vous êtes entré dans le jeu pour la première fois"
+            "text": "Vous avez gagné 5 parties"
         },
         "icon": {
-            "id": "minecraft:snowball"
+            "id": "minecraft:snow_block"
         },
-        "frame": "goal",
+        "frame": "task",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": false
     },
     "criteria": {
-        "spleef_1": {
+        "spleef_win_3": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "spleef:root"
+    "parent": "spleef:spleef_win_2"
 }
+
