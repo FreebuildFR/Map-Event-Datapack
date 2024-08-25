@@ -1,14 +1,14 @@
 {
     "display": {
         "title": {
-            "text": "Envol boisé",
+            "text": "Envol sablonneux",
             "color": "aqua"
         },
         "description": {
             "text": "Vous êtes arrivé au bout du parcours"
         },
         "icon": {
-            "id": "minecraft:jungle_leaves"
+            "id": "minecraft:pumpkin_seeds"
         },
         "frame": "task",
         "show_toast": true,
@@ -16,9 +16,10 @@
         "hidden": false
     },
     "criteria": {
-        "elytra_2": {
+        "elytra_sable_1": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "elytra:elytra_1"
+    "parent": "elytra:elytra_start"
 }
+

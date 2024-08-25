@@ -1,24 +1,25 @@
 {
     "display": {
         "title": {
-            "text": "Envol sablonneux",
+            "text": "IEUUuu...",
             "color": "aqua"
         },
         "description": {
-            "text": "Vous êtes arrivé au bout du parcours"
+            "text": "Vous avez touché Jerry (0~0)"
         },
         "icon": {
-            "id": "minecraft:pumpkin_seeds"
+            "id": "minecraft:slime_block"
         },
-        "frame": "task",
+        "frame": "goal",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": false
     },
     "criteria": {
-        "elytra_4": {
+        "elytra_sylvestre_2": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "elytra:elytra_1"
+    "parent": "elytra:elytra_sylvestre_1"
 }
+

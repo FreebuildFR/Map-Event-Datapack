@@ -1,14 +1,14 @@
 {
     "display": {
         "title": {
-            "text": "IEUUuu...",
+            "text": "Défi !",
             "color": "aqua"
         },
         "description": {
-            "text": "Vous avez touché Jerry (0~0)"
+            "text": "Vous avez découvert un passage secret"
         },
         "icon": {
-            "id": "minecraft:slime_block"
+            "id": "minecraft:vine"
         },
         "frame": "goal",
         "show_toast": true,
@@ -16,9 +16,10 @@
         "hidden": false
     },
     "criteria": {
-        "elytra_2_1": {
+        "elytra_sable_2":{
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "elytra:elytra_2"
+    "parent": "elytra:elytra_sable_1"
 }
+
