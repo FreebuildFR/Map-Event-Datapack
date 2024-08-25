@@ -20,5 +20,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "button:button_1"
+    "parent": "button:button_start"
 }
