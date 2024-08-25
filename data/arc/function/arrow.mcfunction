@@ -14,11 +14,11 @@ execute as @a[x=-6,y=13,z=-396,dx=145,dy=79,dz=114,tag=p_witch,nbt=!{Inventory:[
 execute as @a[x=-6,y=40,z=-361,dx=25,dy=15,dz=30] if score @s UUID = Switch UUID if entity @e[type=minecraft:arrow,x=-6,y=40,z=-361,dx=25,dy=15,dz=30,limit=1,nbt={inBlockState:{Name:"minecraft:tnt"}},tag=!arrow_detected] run advancement grant @s only arc:arc_5
 
 #Si dans artefact
-execute as @a[x=-6,y=13,z=-396,dx=145,dy=79,dz=114] if score @s UUID = Switch UUID if entity @e[type=minecraft:arrow,x=-6,y=13,z=-396,dx=145,dy=79,dz=104,limit=1,nbt={inBlockState:{Name:"minecraft:prismarine_brick_stairs"}},tag=!arrow_detected] run advancement grant @s only artefacts:artefact_7
-execute as @a[x=-6,y=13,z=-396,dx=145,dy=79,dz=114] if score @s UUID = Switch UUID if entity @e[type=minecraft:arrow,x=-6,y=13,z=-396,dx=145,dy=79,dz=104,limit=1,nbt={inBlockState:{Name:"minecraft:prismarine_bricks"}},tag=!arrow_detected] run advancement grant @s only artefacts:artefact_7
-execute as @a[x=-6,y=13,z=-396,dx=145,dy=79,dz=114] if score @s UUID = Switch UUID if entity @e[type=minecraft:arrow,x=-6,y=13,z=-396,dx=145,dy=79,dz=104,limit=1,nbt={inBlockState:{Name:"minecraft:prismarine_brick_slab"}},tag=!arrow_detected] run advancement grant @s only artefacts:artefact_7
-execute as @a[x=-6,y=13,z=-396,dx=145,dy=79,dz=114] if score @s UUID = Switch UUID if entity @e[type=minecraft:arrow,x=-6,y=13,z=-396,dx=145,dy=79,dz=104,limit=1,nbt={inBlockState:{Name:"minecraft:prismarine_slab"}},tag=!arrow_detected] run advancement grant @s only artefacts:artefact_7
-execute as @a[x=-6,y=13,z=-396,dx=145,dy=79,dz=114] if score @s UUID = Switch UUID if entity @e[type=minecraft:arrow,x=-6,y=13,z=-396,dx=145,dy=79,dz=104,limit=1,nbt={inBlockState:{Name:"minecraft:prismarine_stairs"}},tag=!arrow_detected] run advancement grant @s only artefacts:artefact_7
+execute as @a[x=-6,y=13,z=-396,dx=145,dy=79,dz=114] if score @s UUID = Switch UUID if entity @e[type=minecraft:arrow,x=-6,y=13,z=-396,dx=145,dy=79,dz=104,limit=1,nbt={inBlockState:{Name:"minecraft:prismarine_brick_stairs"}},tag=!arrow_detected] run advancement grant @s only artefacts:artefact_arc
+execute as @a[x=-6,y=13,z=-396,dx=145,dy=79,dz=114] if score @s UUID = Switch UUID if entity @e[type=minecraft:arrow,x=-6,y=13,z=-396,dx=145,dy=79,dz=104,limit=1,nbt={inBlockState:{Name:"minecraft:prismarine_bricks"}},tag=!arrow_detected] run advancement grant @s only artefacts:artefact_arc
+execute as @a[x=-6,y=13,z=-396,dx=145,dy=79,dz=114] if score @s UUID = Switch UUID if entity @e[type=minecraft:arrow,x=-6,y=13,z=-396,dx=145,dy=79,dz=104,limit=1,nbt={inBlockState:{Name:"minecraft:prismarine_brick_slab"}},tag=!arrow_detected] run advancement grant @s only artefacts:artefact_arc
+execute as @a[x=-6,y=13,z=-396,dx=145,dy=79,dz=114] if score @s UUID = Switch UUID if entity @e[type=minecraft:arrow,x=-6,y=13,z=-396,dx=145,dy=79,dz=104,limit=1,nbt={inBlockState:{Name:"minecraft:prismarine_slab"}},tag=!arrow_detected] run advancement grant @s only artefacts:artefact_arc
+execute as @a[x=-6,y=13,z=-396,dx=145,dy=79,dz=114] if score @s UUID = Switch UUID if entity @e[type=minecraft:arrow,x=-6,y=13,z=-396,dx=145,dy=79,dz=104,limit=1,nbt={inBlockState:{Name:"minecraft:prismarine_stairs"}},tag=!arrow_detected] run advancement grant @s only artefacts:artefact_arc
 
 #Vie
 execute as @e[type=arrow,tag=!arrow_detected,x=-6,y=13,z=-396,dx=145,dy=79,dz=104] run data merge entity @s {life:-320}
@@ -84,3 +84,4 @@ execute as @e[x=-6,y=13,z=-396,dx=145,dy=79,dz=104,type=arrow,tag=!arrow_detecte
 execute as @e[type=minecraft:arrow,x=-6,y=13,z=-396,dx=145,dy=79,dz=104,limit=1,nbt={inBlockState:{Name:"minecraft:red_stained_glass"}},tag=!lamp] run tag @s add lamp
 execute as @e[type=minecraft:arrow,x=-6,y=13,z=-396,dx=145,dy=79,dz=104,limit=1,nbt={inBlockState:{Name:"minecraft:lime_stained_glass"}},tag=!lamp] run tag @s add lamp
 kill @e[x=-6,y=13,z=-396,dx=145,dy=79,dz=104,type=arrow,tag=!lamp,tag=arrow_detected]
+

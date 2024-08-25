@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "text": "Artefact #5",
+            "text": "Artefact #2",
             "color": "aqua"
         },
         "description": {
-            "text": "Obtenu pour avoir été le plus béni de toute l'arène"
+            "text": "Obtenu pour avoir miné un artefact avec une flèche"
         },
         "icon": {
             "id": "minecraft:prismarine_shard"
@@ -16,10 +16,11 @@
         "hidden": false
     },
     "criteria": {
-        "artefact_5": {
+        "artefact_arc": {
             "trigger": "minecraft:impossible"
         }
     },
-	"rewards": {"function": "artefacts:artefact_5"},
-    "parent": "artefacts:root"
+	"rewards": {"function": "artefacts:artefact_arc"},
+    "parent": "artefacts:artefact_arcade"
 }
+

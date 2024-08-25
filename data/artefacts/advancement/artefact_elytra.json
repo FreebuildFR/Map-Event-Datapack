@@ -16,10 +16,11 @@
         "hidden": false
     },
     "criteria": {
-        "artefact_4": {
+        "artefact_elytra": {
             "trigger": "minecraft:impossible"
         }
     },
-	"rewards": {"function": "artefacts:artefact_4"},
-    "parent": "artefacts:artefact_5"
+	"rewards": {"function": "artefacts:artefact_elytra"},
+    "parent": "artefacts:artefact_pvp"
 }
+

@@ -1,4 +1,4 @@
-execute positioned 291 17 344 run advancement grant @a[dx=4,dy=2,dz=10] only artefacts:artefact_6
+execute positioned 291 17 344 run advancement grant @a[dx=4,dy=2,dz=10] only artefacts:artefact_button
 setblock 290 19 353 minecraft:white_glazed_terracotta
 setblock 290 19 351 minecraft:white_glazed_terracotta
 setblock 290 19 349 minecraft:white_glazed_terracotta
