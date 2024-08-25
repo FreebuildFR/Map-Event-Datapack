@@ -16,9 +16,10 @@
         "hidden": false
     },
     "criteria": {
-        "boat_3": {
+        "boat_alpes": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "boat:boat_1"
+    "parent": "boat:boat_start"
 }
+

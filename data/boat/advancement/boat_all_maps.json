@@ -1,14 +1,14 @@
 {
     "display": {
         "title": {
-            "text": "Hoï !  ",
+            "text": "Tour du monde",
             "color": "aqua"
         },
         "description": {
-            "text": "Vous êtes entré dans le jeu pour la première fois"
+            "text": "Vous avez voyagé sur toutes les glaces"
         },
         "icon": {
-            "id": "minecraft:pufferfish"
+            "id": "minecraft:cartography_table"
         },
         "frame": "goal",
         "show_toast": true,
@@ -16,9 +16,10 @@
         "hidden": false
     },
     "criteria": {
-        "boat_1": {
+        "boat_all_maps": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "boat:root"
+    "parent": "boat:boat_alpes"
 }
+

@@ -27,9 +27,9 @@ scoreboard players set @s[advancements={music:music_5=true},scores={music_win=..
 scoreboard players set @s[advancements={music:music_6=true},scores={music_win=..9}] arc_win 10
 
 # Bateaux sur glace
-scoreboard players set @s[advancements={boat:boat_2=true},scores={boat_lap_1=..9}] boat_lap_1 10
-scoreboard players set @s[advancements={boat:boat_3=true},scores={boat_lap_2=..9}] boat_lap_2 10
-scoreboard players set @s[advancements={boat:boat_4=true},scores={boat_lap_3=..9}] boat_lap_3 10
+scoreboard players set @s[advancements={boat:boat_grand_huit=true},scores={boat_lap_1=..9}] boat_lap_1 10
+scoreboard players set @s[advancements={boat:boat_alpes=true},scores={boat_lap_2=..9}] boat_lap_2 10
+scoreboard players set @s[advancements={boat:boat_noel=true},scores={boat_lap_3=..9}] boat_lap_3 10
 
 # Spleef
 scoreboard players set @s[advancements={spleef:spleef_2=true},scores={spleef_snow=..499}] spleef_snow 500
@@ -69,5 +69,8 @@ scoreboard players set @s[advancements={pvp:pvp_5_111=true},scores={pvp_anci_kil
 
 # Joueur traite
 tag @s add score_avd_fixed
+
+
+
 
 

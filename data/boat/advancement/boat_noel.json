@@ -1,14 +1,14 @@
 {
     "display": {
         "title": {
-            "text": "Glissade",
+            "text": "Bobsleigh",
             "color": "aqua"
         },
         "description": {
             "text": "Vous avez fait 10 tours de circuit"
         },
         "icon": {
-            "id": "minecraft:ice"
+            "id": "minecraft:blue_ice"
         },
         "frame": "goal",
         "show_toast": true,
@@ -16,9 +16,10 @@
         "hidden": false
     },
     "criteria": {
-        "boat_2": {
+        "boat_noel": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "boat:boat_1"
+    "parent": "boat:boat_start"
 }
+
