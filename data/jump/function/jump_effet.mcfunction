@@ -1,5 +1,5 @@
-execute if entity @a[x=-149,y=29,z=-448,dx=19,dy=3,dz=51,tag=!debug] run effect clear @a[x=-149,y=29,z=-448,dx=19,dy=3,dz=51,tag=!debug] 
-execute if entity @a[x=-149,y=29,z=-448,dx=19,dy=3,dz=51,tag=!debug] run tp @a[x=-149,y=29,z=-448,dx=19,dy=3,dz=51,tag=!debug] -138.00 33.00 -394.00 -1621.03 0.00
+execute as @a[x=-149,y=29,z=-448,dx=19,dy=3,dz=51,tag=!debug] run effect clear @s
+execute as @a[x=-149,y=29,z=-448,dx=19,dy=3,dz=51,tag=!debug] run tp @s -138.00 33.00 -394.00 -1621.03 0.00
 
 execute as @a[x=-148,y=33,z=-448,dx=18,dy=6,dz=51] at @s[x=-148,y=33,z=-448,dx=18,dy=6,dz=51] if block ~ ~-1 ~ air run tag @s add Effet
 
