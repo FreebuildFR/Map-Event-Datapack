@@ -16,9 +16,10 @@
         "hidden": false
     },
     "criteria": {
-        "dac_2": {
+        "dac_arbre": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "dac:dac_1"
+    "parent": "dac:dac_start"
 }
+

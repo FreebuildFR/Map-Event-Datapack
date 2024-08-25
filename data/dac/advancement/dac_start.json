@@ -1,14 +1,14 @@
 {
     "display": {
         "title": {
-            "text": "sqrt(player)",
+            "text": "Le grand saut",
             "color": "aqua"
         },
         "description": {
-            "text": "√ = raté"
+            "text": "Vous êtes entré dans le jeu pour la première fois"
         },
         "icon": {
-            "id": "minecraft:stick"
+            "id": "minecraft:salmon_bucket"
         },
         "frame": "goal",
         "show_toast": true,
@@ -16,9 +16,9 @@
         "hidden": false
     },
     "criteria": {
-        "dac_2_1": {
+        "dac_start": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "dac:dac_2"
+    "parent": "dac:root"
 }
