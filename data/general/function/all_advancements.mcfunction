@@ -15,9 +15,14 @@ advancement grant @s from pvp:root
 advancement grant @s from spleef:root
 advancement grant @s only secret:root
 advancement grant @s only secret:s_1
-advancement grant @s only secret:s_2
-advancement grant @s only secret:s_3
-advancement grant @s only secret:s_4
-advancement grant @s only secret:s_5
-advancement grant @s only secret:s_6
-advancement grant @s only secret:s_7
+advancement grant @s only secret:secret_pve
+advancement grant @s only secret:secret_arcade
+advancement grant @s only secret:secret_elytra
+advancement grant @s only secret:secret_pvp
+advancement grant @s only secret:secret_button
+advancement grant @s only secret:secret_arc
+
+
+
+
+
