@@ -1,14 +1,14 @@
 {
     "display": {
         "title": {
-            "text": "Boisé",
+            "text": "Slow motion . . .",
             "color": "aqua"
         },
         "description": {
-            "text": "Vous êtes arrivé au bout du labyrinthe"
+            "text": "Vouuuuuus êêêêtes aarrrrrivé auuu bouuuuut du labyyyyriiiinthe"
         },
         "icon": {
-            "id": "minecraft:oak_leaves"
+            "id": "minecraft:soul_sand"
         },
         "frame": "task",
         "show_toast": true,
@@ -16,9 +16,10 @@
         "hidden": false
     },
     "criteria": {
-        "laby_2": {
+        "laby_slow_mo": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "laby:laby_1"
+    "parent": "laby:laby_moussu"
 }
+

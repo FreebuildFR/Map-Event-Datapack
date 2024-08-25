@@ -16,9 +16,10 @@
         "hidden": false
     },
     "criteria": {
-        "laby_5": {
+        "laby_lanterne": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "laby:laby_2"
+    "parent": "laby:laby_boise"
 }
+

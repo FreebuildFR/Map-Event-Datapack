@@ -1,14 +1,14 @@
 {
     "display": {
         "title": {
-            "text": "Bambouseraie",
+            "text": "Gigantesque",
             "color": "aqua"
         },
         "description": {
             "text": "Vous êtes arrivé au bout du labyrinthe"
         },
         "icon": {
-            "id": "minecraft:sugar_cane"
+            "id": "minecraft:chiseled_quartz_block"
         },
         "frame": "task",
         "show_toast": true,
@@ -16,9 +16,11 @@
         "hidden": false
     },
     "criteria": {
-        "laby_8": {
+        "laby_giant": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "laby:laby_6"
+    "parent": "laby:laby_slow_mo"
 }
+
+

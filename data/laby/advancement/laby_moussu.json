@@ -1,14 +1,14 @@
 {
     "display": {
         "title": {
-            "text": "Panne d'électricité",
+            "text": "Moussu",
             "color": "aqua"
         },
         "description": {
             "text": "Vous êtes arrivé au bout du labyrinthe"
         },
         "icon": {
-            "id": "minecraft:obsidian"
+            "id": "minecraft:mossy_cobblestone"
         },
         "frame": "task",
         "show_toast": true,
@@ -16,9 +16,10 @@
         "hidden": false
     },
     "criteria": {
-        "laby_8": {
+        "laby_moussu": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "laby:laby_5"
+    "parent": "laby:laby_start"
 }
+

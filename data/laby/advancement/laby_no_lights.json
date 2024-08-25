@@ -1,14 +1,14 @@
 {
     "display": {
         "title": {
-            "text": "Slow motion . . .",
+            "text": "Mon écran est éteint",
             "color": "aqua"
         },
         "description": {
-            "text": "Vouuuuuus êêêêtes aarrrrrivé auuu bouuuuut du labyyyyriiiinthe"
+            "text": "Vous êtes arrivé au bout du labyrinthe"
         },
         "icon": {
-            "id": "minecraft:soul_sand"
+            "id": "minecraft:coal_block"
         },
         "frame": "task",
         "show_toast": true,
@@ -16,9 +16,10 @@
         "hidden": false
     },
     "criteria": {
-        "laby_7": {
+        "laby_no_lights": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "laby:laby_4"
+    "parent": "laby:laby_end"
 }
+

@@ -1,14 +1,14 @@
 {
     "display": {
         "title": {
-            "text": "Gigantesque",
+            "text": "Dimension de l'End",
             "color": "aqua"
         },
         "description": {
             "text": "Vous êtes arrivé au bout du labyrinthe"
         },
         "icon": {
-            "id": "minecraft:chiseled_quartz_block"
+            "id": "minecraft:chorus_plant"
         },
         "frame": "task",
         "show_toast": true,
@@ -16,9 +16,10 @@
         "hidden": false
     },
     "criteria": {
-        "laby_10": {
+        "laby_end": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "laby:laby_7"
+    "parent": "laby:laby_start"
 }
+
