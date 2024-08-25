@@ -6,6 +6,6 @@ schedule function pve:nature/debut_1 7s
 
 setblock 487 59 127 air
 
-setblock 487 59 127 dark_oak_wall_sign[facing=west]{front_text:{messages:['[""]','["",{"text":"C\'est parti !","color":"green","bold":true}]','[""]','[""]']},is_waxed:1} replace
+setblock 487 59 127 dark_oak_wall_sign[facing=west]{front_text:{messages:['[""]','["",{"text":"C\'est parti !","color":"green","bold":true}]','[""]','[""]']},is_waxed:1b} replace
 
 scoreboard players set npc_nature_count pve_vague_nature -1
