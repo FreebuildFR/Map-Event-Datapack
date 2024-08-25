@@ -1,14 +1,14 @@
 {
     "display": {
         "title": {
-            "text": "Off beat",
+            "text": "Sur le dancefloor",
             "color": "aqua"
         },
         "description": {
-            "text": "Vous vous êtes fait éjecter de la place"
+            "text": "Vous êtes entré dans le jeu pour la première fois"
         },
         "icon": {
-            "id": "minecraft:barrier"
+            "id": "minecraft:jukebox"
         },
         "frame": "goal",
         "show_toast": true,
@@ -16,9 +16,9 @@
         "hidden": false
     },
     "criteria": {
-        "music_2": {
+        "music_start": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "music:music_1"
+    "parent": "music:root"
 }

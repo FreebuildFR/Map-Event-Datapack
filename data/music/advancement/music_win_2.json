@@ -17,9 +17,10 @@
         "hidden": false
     },
     "criteria": {
-        "music_4": {
+        "music_win_2": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "music:music_3"
+    "parent": "music:music_win_1"
 }
+

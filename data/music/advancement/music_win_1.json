@@ -1,24 +1,26 @@
 {
     "display": {
         "title": {
-            "text": "Sur le dancefloor",
+            "text": "Danseur",
             "color": "aqua"
         },
         "description": {
-            "text": "Vous êtes entré dans le jeu pour la première fois"
+            "text": "Vous avez gagné 1 partie"
         },
         "icon": {
-            "id": "minecraft:jukebox"
+            "id": "minecraft:tipped_arrow",
+			"nbt": "{Potion:\"minecraft:slow_falling\"}"
         },
-        "frame": "goal",
+        "frame": "task",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": false
     },
     "criteria": {
-        "music_1": {
+        "music_win_1": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "music:root"
+    "parent": "music:music_start"
 }
+

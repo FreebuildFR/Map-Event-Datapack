@@ -21,10 +21,10 @@ scoreboard players set @s[advancements={arc:arc_win_2=true},scores={arc_win=..2}
 scoreboard players set @s[advancements={arc:arc_win_3=true},scores={arc_win=..4}] arc_win 5
 
 # Chaises musicales
-scoreboard players set @s[advancements={music:music_3=true},scores={music_win=..0}] arc_win 1
-scoreboard players set @s[advancements={music:music_4=true},scores={music_win=..1}] arc_win 2
-scoreboard players set @s[advancements={music:music_5=true},scores={music_win=..4}] arc_win 5
-scoreboard players set @s[advancements={music:music_6=true},scores={music_win=..9}] arc_win 10
+scoreboard players set @s[advancements={music:music_win_1=true},scores={music_win=..0}] arc_win 1
+scoreboard players set @s[advancements={music:music_win_2=true},scores={music_win=..1}] arc_win 2
+scoreboard players set @s[advancements={music:music_win_3=true},scores={music_win=..4}] arc_win 5
+scoreboard players set @s[advancements={music:music_win_4=true},scores={music_win=..9}] arc_win 10
 
 # Bateaux sur glace
 scoreboard players set @s[advancements={boat:boat_grand_huit=true},scores={boat_lap_1=..9}] boat_lap_1 10
@@ -69,6 +69,11 @@ scoreboard players set @s[advancements={pvp:pvp_5_111=true},scores={pvp_anci_kil
 
 # Joueur traite
 tag @s add score_avd_fixed
+
+
+
+
+
 
 
 

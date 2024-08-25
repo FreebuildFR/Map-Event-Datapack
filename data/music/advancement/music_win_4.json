@@ -1,25 +1,27 @@
 {
     "display": {
         "title": {
-            "text": "Danseur",
+            "text": "Divinité danseuse",
             "color": "aqua"
         },
         "description": {
-            "text": "Vous avez gagné 1 partie"
+            "text": "Vous avez gagné 10 parties"
         },
         "icon": {
             "id": "minecraft:tipped_arrow",
-			"nbt": "{Potion:\"minecraft:slow_falling\"}"
+			"nbt": "{Potion:\"minecraft:strength\"}"
         },
-        "frame": "task",
+        "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": false
     },
     "criteria": {
-        "music_3": {
+        "music_win_4": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "music:music_1"
+    "parent": "music:music_win_3"
 }
+
+
