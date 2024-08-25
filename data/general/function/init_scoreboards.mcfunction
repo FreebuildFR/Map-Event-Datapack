@@ -36,6 +36,7 @@ scoreboard objectives add spleef_medieva dummy
 scoreboard objectives add spleef_hiveria dummy
 scoreboard objectives add spleef_futuria dummy
 scoreboard objectives add ready_bg dummy
+scoreboard objectives add UUID dummy
 scoreboard players set npc_temp_time time_tick 0
 scoreboard players set npc_temp_time time_minute 0
 scoreboard players set npc_temp_time time_seconde 0
@@ -49,4 +50,4 @@ scoreboard players set npc_debut spleef_futuria 0
 scoreboard players set npc_debut spleef_hiveria 0
 scoreboard players set npc_debut spleef_medieva 0
 scoreboard players set ready_count ready_bg 0
-scoreboard players set fourmilier_playe npc_score 0
+scoreboard players set fourmilier_player npc_score 0
