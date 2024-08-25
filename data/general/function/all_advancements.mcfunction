@@ -14,7 +14,7 @@ advancement grant @s from pve:root
 advancement grant @s from pvp:root
 advancement grant @s from spleef:root
 advancement grant @s only secret:root
-advancement grant @s only secret:s_1
+advancement grant @s only secret:secret_jump
 advancement grant @s only secret:secret_pve
 advancement grant @s only secret:secret_arcade
 advancement grant @s only secret:secret_elytra
