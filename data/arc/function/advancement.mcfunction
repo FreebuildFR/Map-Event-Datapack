@@ -7,7 +7,3 @@ execute if score @s arc_interrupteur matches 50.. run advancement grant @s only 
 
 
 
-
-
-
-

@@ -7,7 +7,3 @@ advancement grant @a[x=-114,y=0,z=142,dx=84,dy=80,dz=84,scores={evt_kill_player=
 
 scoreboard players reset @a[x=-114,y=0,z=142,dx=84,dy=80,dz=84,scores={evt_kill_player=1..}] evt_kill_player
 
-
-
-
-

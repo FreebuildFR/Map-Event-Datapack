@@ -25,5 +25,3 @@ execute if score npc_score music matches ..1 run function music:sign
 function music:display_bossbar
 
 
-
-

@@ -62,8 +62,6 @@ execute if block 55 46 -314 minecraft:lime_stained_glass if block 73 39 -306 min
 execute if block 55 46 -314 minecraft:red_stained_glass if block 90 39 -309 rail[shape=north_west] run setblock 90 39 -309 rail[shape=south_west]
 execute if block 73 39 -306 minecraft:red_stained_glass if block 90 39 -309 rail[shape=north_west] run setblock 90 39 -309 rail[shape=south_west]
 execute if block 84 41 -309 minecraft:red_stained_glass if block 90 39 -309 rail[shape=north_west] run setblock 90 39 -309 rail[shape=south_west]
-
-
 #Salle 5
 execute if entity @e[type=minecraft:arrow,x=105,y=31,z=-306,dx=0,dy=0,dz=0,limit=1,nbt={inGround:1b}] if block 105 31 -306 minecraft:red_stained_glass run setblock 105 31 -306 minecraft:lime_stained_glass
 execute unless entity @e[type=minecraft:arrow,x=105,y=31,z=-306,dx=0,dy=0,dz=0] if block 105 31 -306 minecraft:lime_stained_glass run setblock 105 31 -306 minecraft:red_stained_glass
@@ -84,5 +82,3 @@ execute as @e[x=-6,y=13,z=-396,dx=145,dy=79,dz=104,type=arrow,tag=!arrow_detecte
 execute as @e[type=minecraft:arrow,x=-6,y=13,z=-396,dx=145,dy=79,dz=104,limit=1,nbt={inBlockState:{Name:"minecraft:red_stained_glass"}},tag=!lamp] run tag @s add lamp
 execute as @e[type=minecraft:arrow,x=-6,y=13,z=-396,dx=145,dy=79,dz=104,limit=1,nbt={inBlockState:{Name:"minecraft:lime_stained_glass"}},tag=!lamp] run tag @s add lamp
 kill @e[x=-6,y=13,z=-396,dx=145,dy=79,dz=104,type=arrow,tag=!lamp,tag=arrow_detected]
-
-

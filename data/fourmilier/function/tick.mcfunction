@@ -11,5 +11,3 @@ execute as @a[x=215,y=21,z=-288,dx=4,dy=0,dz=45,tag=fourmilier] if entity @s[sco
 execute as @a[x=215,y=21,z=-288,dx=4,dy=0,dz=45,tag=fourmilier] run tag @s remove fourmilier
 execute positioned 204.28 17.00 -292.72 run clear @a[dx=24,dy=2,dz=52] minecraft:dirt
 
-
-

@@ -103,5 +103,3 @@ bossbar set minecraft:music_pigstep_fast max 10
 bossbar set minecraft:music_pigstep_fast value 10
 
 
-
-

@@ -6,5 +6,3 @@ execute if score @s spleef_win matches 3.. run advancement grant @s only spleef:
 execute if score @s spleef_win matches 5.. run advancement grant @s only spleef:spleef_win_3
 execute if score @s spleef_win matches 10.. run advancement grant @s only spleef:spleef_win_4
 
-
-

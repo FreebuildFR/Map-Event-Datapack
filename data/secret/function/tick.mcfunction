@@ -7,5 +7,3 @@ execute positioned 202.18 16.00 -52.63 if entity @a[dx=6,dy=4,dz=26] run particl
 execute positioned 202.18 16.00 -52.63 if entity @a[dx=6,dy=4,dz=26] run particle minecraft:composter 204.5 17.5 -46.5 0.25 0.25 0.25 0.01 1
 execute positioned 202.18 16.00 -52.63 if entity @a[dx=6,dy=4,dz=26] run particle minecraft:flame 204.5 17.5 -48.5 0.25 0.25 0.25 0.01 1
 execute positioned 202.18 16.00 -52.63 if entity @a[dx=6,dy=4,dz=26] run particle minecraft:witch 204.5 17.5 -50.5 0.25 0.25 0.25 0.01 1
-
-

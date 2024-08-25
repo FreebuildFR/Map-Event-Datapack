@@ -18,8 +18,6 @@ execute as @a[x=-148,y=33,z=-448,dx=18,dy=4,dz=51] at @s if block ~ ~-1 ~ brown_
 execute as @a[x=-148,y=33, z=-448,dx=18,dy=4,dz=51] at @s if block ~ ~-1 ~ red_wool run kill @s
 
 execute as @a[x=-148,y=33, z=-448,dx=18,dy=4,dz=51] at @s if block ~ ~-1 ~ blue_wool run tp @s -138.00 33.00 -394.00 -1621.03 0.00
-
-
 execute as @a[x=-148,y=33, z=-448,dx=18,dy=6,dz=51, tag=Effet] at @s[x=-148, y=33, z=-448,dx=18,dy=6,dz=51] if block ~ ~-1 ~ white_wool run effect give @s instant_health 2 0
 execute as @a[x=-148,y=33, z=-448,dx=18,dy=6,dz=51, tag=Effet] at @s[x=-148, y=33, z=-448,dx=18,dy=6,dz=51] if block ~ ~-1 ~ gray_wool run effect give @s instant_damage 1 0
 execute as @a[x=-148,y=33, z=-448,dx=18,dy=6,dz=51, tag=Effet] at @s[x=-148, y=33, z=-448,dx=18,dy=6,dz=51] if block ~ ~-1 ~ purple_wool run effect give @s poison 2 0

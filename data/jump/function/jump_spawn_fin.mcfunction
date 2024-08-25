@@ -1,7 +1,5 @@
 title @s title {"text":"Bravo ✨","color":"yellow"}
 playsound minecraft:entity.player.levelup master @s[tag=!jump_spawn] ~ ~ ~ 100 0
-
-
 tellraw @s[tag=jump_spawn] {"text":"Vous avez fini le parcours du spawn !","color":"yellow"}
 tellraw @s[tag=!jump_spawn] {"text":"Vous avez fini le parcours du spawn ! Pour obtenir l'advancement commencez depuis le début","color":"yellow"}
 playsound minecraft:entity.player.levelup master @s[tag=jump_spawn] ~ ~ ~ 100 1

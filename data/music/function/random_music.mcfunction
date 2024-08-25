@@ -17,8 +17,6 @@ execute if entity @s[tag=c_mellohi_fast] as @a[x=238,y=39,z=-381,dx=35,dy=20,dz=
 execute if entity @s[tag=c_stal_fast] as @a[x=238,y=39,z=-381,dx=35,dy=20,dz=35] run playsound minecraft:music_disc.stal master @s 254 120 -365 1000 2
 execute if entity @s[tag=c_strad_fast] as @a[x=238,y=39,z=-381,dx=35,dy=20,dz=35] run playsound minecraft:music_disc.strad master @s 254 120 -365 1000 2
 execute if entity @s[tag=c_pigstep_fast] as @a[x=238,y=39,z=-381,dx=35,dy=20,dz=35] run playsound minecraft:music_disc.pigstep master @s 254 120 -365 1000 1.5 1
-
-
 #state for bossbar display
 
 execute if entity @s[tag=c_blocks] run data modify storage music state set value playing_music_blocks

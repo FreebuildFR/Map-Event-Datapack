@@ -20,8 +20,6 @@ execute positioned 226.5 42.00 -86.5 as @a[distance=..5,tag=timer] run function 
 execute positioned 226.5 42.00 -86.5 run effect clear @a[distance=..5]
 execute positioned 226.5 42.00 -86.5 run effect give @a[distance=..5] instant_health 10 0 true
 execute positioned 226.5 42.00 -86.5 run effect give @a[distance=..5] saturation 10 0 true
-
-
 execute positioned 245.5 42.00 -59.5 run effect give @a[distance=..1.5] minecraft:levitation 1 16 true
 execute positioned 253.5 42.00 -13.5 run effect give @a[distance=..1.5] minecraft:levitation 1 17 true
 execute positioned 226.5 42.00 -1.5 run effect give @a[distance=..1.5] minecraft:levitation 1 12 true

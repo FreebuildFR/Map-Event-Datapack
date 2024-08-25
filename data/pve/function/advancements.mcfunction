@@ -15,9 +15,3 @@ advancement grant @a[scores={pve_nature_win=5..,pve_hiver_win=5..,pve_enfer_win=
 
 
 
-
-
-
-
-
-

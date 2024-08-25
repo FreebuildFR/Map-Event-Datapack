@@ -36,8 +36,6 @@ scoreboard objectives add spleef_medieva dummy
 scoreboard objectives add spleef_hiveria dummy
 scoreboard objectives add spleef_futuria dummy
 scoreboard objectives add ready_bg dummy
-
-
 scoreboard players set npc_temp_time time_tick 0
 scoreboard players set npc_temp_time time_minute 0
 scoreboard players set npc_temp_time time_seconde 0

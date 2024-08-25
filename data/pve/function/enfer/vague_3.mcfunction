@@ -16,6 +16,4 @@ execute positioned 635.5 50.0 123.5 run function pve:enfer/mob_magma_cube
 execute positioned 635.5 50.0 123.5 run function pve:enfer/mob_magma_cube
 execute positioned 635.5 50.0 123.5 run function pve:enfer/mob_wither
 execute positioned 691.5 35.12 133.60 run function pve:enfer/mob_magma
-
-
 schedule function pve:enfer/vague_4 180s

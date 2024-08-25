@@ -7,8 +7,6 @@ execute if score npc_score spleef_hiveria matches 1 run execute as @a[x=423,y=32
 execute if score npc_score spleef_hiveria matches 1 run tp @a[x=423,y=32,z=-380,dx=38,dy=20,dz=38,tag=!debug] 442 50 -360
 
 execute if score npc_score spleef_hiveria matches 1 run schedule function spleef:hiveria/etage1 1t
-
-
 #Reset des panneaux
 execute if score npc_score spleef_hiveria matches 0 unless block 442 51 -357 minecraft:dark_oak_wall_sign run setblock 442 51 -357 minecraft:dark_oak_wall_sign[facing=north]{front_text:{messages:['{"text":"Commencer","bold":true,"color":"yellow"}','{"text":"la partie","bold":true,"color":"yellow"}','{"text":""}','{"text":"*clique droit*","italic":true,"color":"white"}']},is_waxed:1}
 execute if score npc_score spleef_hiveria matches 0 unless block 442 51 -365 minecraft:dark_oak_wall_sign run setblock 442 51 -365 minecraft:dark_oak_wall_sign[facing=south]{front_text:{messages:['{"text":"Commencer","bold":true,"color":"yellow"}','{"text":"la partie","bold":true,"color":"yellow"}','{"text":""}','{"text":"*clique droit*","italic":true,"color":"white"}']},is_waxed:1}

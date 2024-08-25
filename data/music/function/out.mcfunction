@@ -8,5 +8,3 @@ tp @e[type=!player,x=238,y=39,z=-381,dx=35,dy=20,dz=35] 254 -1000 -365
 data modify storage music state set value end_of_round
 function music:display_bossbar
 function music:wave
-
-

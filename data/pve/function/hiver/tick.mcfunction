@@ -6,8 +6,6 @@ execute positioned 524 25 72 unless entity @e[type=!minecraft:player,type=!#mine
 execute positioned 524 25 72 unless entity @e[type=!minecraft:player,type=!#minecraft:arrows,type=!minecraft:area_effect_cloud,type=!minecraft:armor_stand,dx=80,dy=20,dz=110] if score npc_hiver_count pve_vague_hiver matches 1.. run scoreboard players set npc_hiver_count pve_vague_hiver 6
 execute positioned 524 25 72 if entity @e[type=!minecraft:player,dx=80,dy=20,dz=110] unless entity @e[type=player,dx=80,dy=20,dz=110] if score npc_hiver_count pve_vague_hiver matches 1.. run function pve:hiver/echec
 execute positioned 524 25 72 unless entity @e[type=player,dx=80,dy=20,dz=110] if score npc_hiver_count pve_vague_hiver matches 0 run setblock 573 66 124 dark_oak_wall_sign[facing=west]{front_text:{messages:['[""]','["",{"text":"Commencer","color":"yellow","bold":true}]','["",{"text":"la partie","color":"yellow","bold":true}]','["",{"text":"*clique droit*","italic":true,"color":"white"}]']},is_waxed:1} replace
-
-
 #anti depop falling bloc
 execute positioned 524 25 72 as @e[type=falling_block,dx=80,dy=20,dz=110] run data merge entity @s {Time:599}
 

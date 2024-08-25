@@ -22,7 +22,3 @@ advancement grant @s only secret:secret_pvp
 advancement grant @s only secret:secret_button
 advancement grant @s only secret:secret_arc
 
-
-
-
-

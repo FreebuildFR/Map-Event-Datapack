@@ -42,24 +42,18 @@ execute positioned 322 22 -272 as @e[type=minecraft:armor_stand,name=arcade_vic,
 execute positioned 322 22 -272 as @e[type=minecraft:armor_stand,name=arcade_vic,scores={arcade_victoire=2..},dx=19,dy=19,dz=2] at @s if block ~ ~ ~ minecraft:red_terracotta positioned 322 22 -272 run advancement grant @a[dx=16,dy=3,dz=7] only arcade:arcade_duo
 execute positioned 322 22 -272 as @e[type=minecraft:armor_stand,name=arcade_vic,scores={arcade_victoire=3..},dx=19,dy=19,dz=2] at @s if block ~ ~ ~ minecraft:yellow_terracotta positioned 322 22 -272 run advancement grant @a[dx=16,dy=3,dz=-7] only arcade:arcade_trio
 execute positioned 322 22 -272 as @e[type=minecraft:armor_stand,name=arcade_vic,scores={arcade_victoire=3..},dx=19,dy=19,dz=2] at @s if block ~ ~ ~ minecraft:red_terracotta positioned 322 22 -272 run advancement grant @a[dx=16,dy=3,dz=7] only arcade:arcade_trio
-
-
 execute positioned 296 22 -273 as @e[type=minecraft:armor_stand,name=arcade_vic,scores={arcade_victoire=1..},dx=19,dy=19,dz=2] at @s if block ~ ~ ~ minecraft:yellow_terracotta positioned 296 22 -273 run advancement grant @a[dx=16,dy=3,dz=-7] only arcade:arcade_jaune
 execute positioned 296 22 -273 as @e[type=minecraft:armor_stand,name=arcade_vic,scores={arcade_victoire=1..},dx=19,dy=19,dz=2] at @s if block ~ ~ ~ minecraft:red_terracotta positioned 296 22 -273 run advancement grant @a[dx=16,dy=3,dz=7] only arcade:arcade_rouge
 execute positioned 296 22 -273 as @e[type=minecraft:armor_stand,name=arcade_vic,scores={arcade_victoire=2..},dx=19,dy=19,dz=2] at @s if block ~ ~ ~ minecraft:yellow_terracotta positioned 296 22 -273 run advancement grant @a[dx=16,dy=3,dz=-7] only arcade:arcade_duo
 execute positioned 296 22 -273 as @e[type=minecraft:armor_stand,name=arcade_vic,scores={arcade_victoire=2..},dx=19,dy=19,dz=2] at @s if block ~ ~ ~ minecraft:red_terracotta positioned 296 22 -273 run advancement grant @a[dx=16,dy=3,dz=7] only arcade:arcade_duo
 execute positioned 296 22 -273 as @e[type=minecraft:armor_stand,name=arcade_vic,scores={arcade_victoire=3..},dx=19,dy=19,dz=2] at @s if block ~ ~ ~ minecraft:yellow_terracotta positioned 296 22 -273 run advancement grant @a[dx=16,dy=3,dz=-7] only arcade:arcade_trio
 execute positioned 296 22 -273 as @e[type=minecraft:armor_stand,name=arcade_vic,scores={arcade_victoire=3..},dx=19,dy=19,dz=2] at @s if block ~ ~ ~ minecraft:red_terracotta positioned 296 22 -273 run advancement grant @a[dx=16,dy=3,dz=7] only arcade:arcade_trio
-
-
 execute positioned 296 22 -242 as @e[type=minecraft:armor_stand,name=arcade_vic,scores={arcade_victoire=1..},dx=19,dy=19,dz=2] at @s if block ~ ~ ~ minecraft:yellow_terracotta positioned 296 22 -242 run advancement grant @a[dx=16,dy=3,dz=-7] only arcade:arcade_jaune
 execute positioned 296 22 -242 as @e[type=minecraft:armor_stand,name=arcade_vic,scores={arcade_victoire=1..},dx=19,dy=19,dz=2] at @s if block ~ ~ ~ minecraft:red_terracotta positioned 296 22 -242 run advancement grant @a[dx=16,dy=3,dz=7] only arcade:arcade_rouge
 execute positioned 296 22 -242 as @e[type=minecraft:armor_stand,name=arcade_vic,scores={arcade_victoire=2..},dx=19,dy=19,dz=2] at @s if block ~ ~ ~ minecraft:yellow_terracotta positioned 296 22 -242 run advancement grant @a[dx=16,dy=3,dz=-7] only arcade:arcade_duo
 execute positioned 296 22 -242 as @e[type=minecraft:armor_stand,name=arcade_vic,scores={arcade_victoire=2..},dx=19,dy=19,dz=2] at @s if block ~ ~ ~ minecraft:red_terracotta positioned 296 22 -242 run advancement grant @a[dx=16,dy=3,dz=7] only arcade:arcade_duo
 execute positioned 296 22 -242 as @e[type=minecraft:armor_stand,name=arcade_vic,scores={arcade_victoire=3..},dx=19,dy=19,dz=2] at @s if block ~ ~ ~ minecraft:yellow_terracotta positioned 296 22 -242 run advancement grant @a[dx=16,dy=3,dz=-7] only arcade:arcade_trio
 execute positioned 296 22 -242 as @e[type=minecraft:armor_stand,name=arcade_vic,scores={arcade_victoire=3..},dx=19,dy=19,dz=2] at @s if block ~ ~ ~ minecraft:red_terracotta positioned 296 22 -242 run advancement grant @a[dx=16,dy=3,dz=7] only arcade:arcade_trio
-
-
 execute positioned 322 22 -241 as @e[type=minecraft:armor_stand,name=arcade_vic,scores={arcade_victoire=1..},dx=19,dy=19,dz=2] at @s if block ~ ~ ~ minecraft:yellow_terracotta positioned 322 22 -241 run advancement grant @a[dx=16,dy=3,dz=-7] only arcade:arcade_jaune
 execute positioned 322 22 -241 as @e[type=minecraft:armor_stand,name=arcade_vic,scores={arcade_victoire=1..},dx=19,dy=19,dz=2] at @s if block ~ ~ ~ minecraft:red_terracotta positioned 322 22 -241 run advancement grant @a[dx=16,dy=3,dz=7] only arcade:arcade_rouge
 execute positioned 322 22 -241 as @e[type=minecraft:armor_stand,name=arcade_vic,scores={arcade_victoire=2..},dx=19,dy=19,dz=2] at @s if block ~ ~ ~ minecraft:yellow_terracotta positioned 322 22 -241 run advancement grant @a[dx=16,dy=3,dz=-7] only arcade:arcade_duo
@@ -95,8 +89,4 @@ execute at @e[type=minecraft:armor_stand,name=arcade_vic,scores={arcade_victoire
 ####
 
 kill @e[type=minecraft:armor_stand,name=arcade_vic]
-
-
-
-
 

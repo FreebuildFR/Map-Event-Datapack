@@ -9,5 +9,3 @@ item replace entity @s hotbar.8 with minecraft:blaze_powder{display:{Name:"{\"te
 tag @s remove pvp_archer
 tag @s remove pvp_chevalier
 tag @s add pvp_berzerk
-
-

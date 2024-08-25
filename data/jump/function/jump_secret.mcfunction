@@ -5,8 +5,6 @@ execute positioned -123 10 -397 as @a[dx=60,dy=100,dz=95] at @s if block ~ ~ ~-0
 execute positioned -123 10 -397 as @a[dx=60,dy=100,dz=95] at @s if block ~ ~ ~0.5 dark_prismarine run function jump:boost2
 execute positioned -123 10 -397 as @a[dx=60,dy=100,dz=95] at @s if block ~-0.5 ~ ~ dark_prismarine run function jump:boost3
 execute positioned -123 10 -397 as @a[dx=60,dy=100,dz=95] at @s if block ~0.5 ~ ~ dark_prismarine run function jump:boost4
-
-
 #Timer
 execute as @a[tag=timer] run scoreboard players add @s time_tick 1
 execute as @a[tag=timer,scores={time_tick=20..}] run scoreboard players add @s time_seconde 1

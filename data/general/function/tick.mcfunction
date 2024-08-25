@@ -31,8 +31,6 @@ execute positioned 378 31 -379 if entity @a[dx=42,dy=50,dz=42] run function sple
 execute positioned 423 32 -380 if entity @a[dx=38,dy=20,dz=38] run function spleef:hiveria/tick
 execute positioned -123 10 -397 if entity @a[dx=60,dy=100,dz=95] run function jump:jump_secret
 execute positioned 479 0 -366 if entity @a[dx=278,dy=255,dz=117] run function elytra:secret
-
-
 #Secret
 execute positioned -97.00 19.24 -395.89 if entity @a[dx=24,dy=30,dz=25] run function secret:button_tick
 
@@ -43,7 +41,5 @@ execute as @a[scores={golden=1},tag=!golden] run tellraw @s {"text":"Armure d'or
 execute as @a[scores={golden=1},tag=!golden] run tag @s add golden
 execute as @a[scores={golden=1..},tag=golden_able] run scoreboard players enable @s golden
 execute as @a[scores={golden=1..},tag=golden_able] run scoreboard players set @s golden 0
-
-
 # Fix scoreboard advancements
 execute positioned 226.50 42.00 -86.50 run execute as @a[distance=..0.5,tag=!score_avd_fixed] run function general:fix_score_adv

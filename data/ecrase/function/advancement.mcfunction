@@ -8,5 +8,3 @@ execute as @a[scores={ecrase_total=10..},x=57,y=46,z=-144,dx=50,dy=15,dz=70] run
 execute as @a[scores={ecrase_total=40..},x=57,y=46,z=-144,dx=50,dy=15,dz=70] run advancement grant @s only ecrase:ecrase_total_wins_3
 
 
-
-
