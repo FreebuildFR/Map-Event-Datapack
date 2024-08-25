@@ -1,1 +1,1 @@
-summon minecraft:skeleton ~ ~ ~ {PersistenceRequired:1b,HandItems:[{id:"minecraft:quartz",Count:1b},{id:"minecraft:quartz",Count:1b}],ArmorItems:[{},{},{},{id:"minecraft:bone",Count:1b}]}
+summon minecraft:skeleton ~ ~ ~ {PersistenceRequired:1b,HandItems:[{id:"minecraft:quartz",count:1},{id:"minecraft:quartz",count:1}],ArmorItems:[{},{},{},{id:"minecraft:bone",count:1}]}
