@@ -1,7 +1,7 @@
 
 #give
 execute as @a[x=438,y=49,z=-365,dx=10,dy=2,dz=10] run clear @s
-execute as @a[x=438,y=49,z=-365,dx=10,dy=2,dz=10] run give @s minecraft:iron_shovel{CanDestroy:["minecraft:snow_block"],display:{Name:"{\"text\":\"Attrape neige\"}"},HideFlags:1,Enchantments:[{id:"minecraft:efficiency",lvl:100},{id:"minecraft:unbreaking",lvl:1000}]} 1
+execute as @a[x=438,y=49,z=-365,dx=10,dy=2,dz=10] run give @s minecraft:iron_shovel[can_break={predicates:[{blocks:"snow_block"}],show_in_tooltip:false},custom_name='"Attrape neige"',unbreakable={show_in_tooltip:false},enchantments={levels:{"minecraft:efficiency":100},show_in_tooltip:false},enchantment_glint_override=false] 1
 execute as @a[x=438,y=49,z=-365,dx=10,dy=2,dz=10] run title @s title {"text":"C'est parti","color":"green"}
 execute as @a[x=438,y=49,z=-365,dx=10,dy=2,dz=10] run title @s subtitle {"text":"~ Pelletez ~","color":"aqua"}
 execute as @a[x=438,y=49,z=-365,dx=10,dy=2,dz=10] run playsound minecraft:block.note_block.bell master @s ~ ~100 ~ 100 2
