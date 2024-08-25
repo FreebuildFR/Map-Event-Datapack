@@ -1,24 +1,24 @@
 {
     "display": {
         "title": {
-            "text": "Devant l'épée de légende",
+            "text": "Prêt à en découdre",
             "color": "aqua"
         },
         "description": {
-            "text": "Vous avez vaincu votre premier ennemi dans cette arène"
+            "text": "Vous êtes entré dans le jeu pour la première fois"
         },
         "icon": {
-            "id": "minecraft:stone_sword"
+            "id": "minecraft:shield"
         },
-        "frame": "task",
+        "frame": "goal",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": false
     },
     "criteria": {
-        "pvp_5": {
+        "pvp_start": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "pvp:pvp_1"
+    "parent": "pvp:root"
 }

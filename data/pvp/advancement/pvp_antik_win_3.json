@@ -1,14 +1,14 @@
 {
     "display": {
         "title": {
-            "text": "Futur empereur",
+            "text": "Autel",
             "color": "aqua"
         },
         "description": {
             "text": "Vous avez vaincu 30 ennemis dans cette arène"
         },
         "icon": {
-            "id": "minecraft:oak_leaves"
+            "id": "minecraft:chiseled_stone_bricks"
         },
         "frame": "challenge",
         "show_toast": true,
@@ -16,9 +16,10 @@
         "hidden": false
     },
     "criteria": {
-        "pvp_2_111": {
+        "pvp_antik_win_3": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "pvp:pvp_2_11"
+    "parent": "pvp:pvp_antik_win_2"
 }
+

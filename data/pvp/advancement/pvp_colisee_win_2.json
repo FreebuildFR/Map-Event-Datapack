@@ -1,14 +1,14 @@
 {
     "display": {
         "title": {
-            "text": "Rune",
+            "text": "Maitre des fauves",
             "color": "aqua"
         },
         "description": {
-            "text": "Vous avez vaincu 5 ennemis dans cette arène"
+            "text": "Vous avez vaincu 15 ennemis dans cette arène"
         },
         "icon": {
-            "id": "minecraft:stone_button"
+            "id": "minecraft:red_sandstone"
         },
         "frame": "task",
         "show_toast": true,
@@ -16,9 +16,10 @@
         "hidden": false
     },
     "criteria": {
-        "pvp_5_1": {
+        "pvp_colisee_win_2": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "pvp:pvp_5"
+    "parent": "pvp:pvp_colisee_win_1"
 }
+

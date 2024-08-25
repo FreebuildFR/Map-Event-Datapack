@@ -1,14 +1,14 @@
 {
     "display": {
         "title": {
-            "text": "Chef de village",
+            "text": "Devant l'épée de légende",
             "color": "aqua"
         },
         "description": {
-            "text": "Vous avez vaincu 5 ennemis dans cette arène"
+            "text": "Vous avez vaincu votre premier ennemi dans cette arène"
         },
         "icon": {
-            "id": "minecraft:iron_axe"
+            "id": "minecraft:stone_sword"
         },
         "frame": "task",
         "show_toast": true,
@@ -16,9 +16,10 @@
         "hidden": false
     },
     "criteria": {
-        "pvp_3_1": {
+        "pvp_antik_start": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "pvp:pvp_3"
+    "parent": "pvp:pvp_start"
 }
+

@@ -1,14 +1,14 @@
 {
     "display": {
         "title": {
-            "text": "Bourrasque infernale",
+            "text": "Montagne nordique",
             "color": "aqua"
         },
         "description": {
             "text": "Vous avez vaincu 15 ennemis dans cette arène"
         },
         "icon": {
-            "id": "minecraft:obsidian"
+            "id": "minecraft:diamond_axe"
         },
         "frame": "task",
         "show_toast": true,
@@ -16,9 +16,10 @@
         "hidden": false
     },
     "criteria": {
-        "pvp_4_11": {
+        "pvp_viking_win_2": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "pvp:pvp_4_1"
+    "parent": "pvp:pvp_viking_win_1"
 }
+

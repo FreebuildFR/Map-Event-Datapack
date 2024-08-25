@@ -50,25 +50,50 @@ scoreboard players set @s[advancements={pve:pve_infernal_win_2=true},scores={pve
 scoreboard players set @s[advancements={pve:pve_infernal_win_3=true},scores={pve_enfer_win=..4}] pve_enfer_win 10
 
 # PVP
-scoreboard players set @s[advancements={pvp:pvp_2=true},scores={pvp_zeus_kill=..0}] pvp_zeus_kill 1
-scoreboard players set @s[advancements={pvp:pvp_2_1=true},scores={pvp_zeus_kill=..4}] pvp_zeus_kill 5
-scoreboard players set @s[advancements={pvp:pvp_2_11=true},scores={pvp_zeus_kill=..14}] pvp_zeus_kill 15
-scoreboard players set @s[advancements={pvp:pvp_2_111=true},scores={pvp_zeus_kill=..29}] pvp_zeus_kill 30
-scoreboard players set @s[advancements={pvp:pvp_3=true},scores={pvp_viki_kill=..0}] pvp_viki_kill 1
-scoreboard players set @s[advancements={pvp:pvp_3_1=true},scores={pvp_viki_kill=..4}] pvp_viki_kill 5
-scoreboard players set @s[advancements={pvp:pvp_3_11=true},scores={pvp_viki_kill=..14}] pvp_viki_kill 15
-scoreboard players set @s[advancements={pvp:pvp_3_111=true},scores={pvp_viki_kill=..29}] pvp_viki_kill 30
-scoreboard players set @s[advancements={pvp:pvp_4=true},scores={pvp_sala_kill=..0}] pvp_sala_kill 1
-scoreboard players set @s[advancements={pvp:pvp_4_1=true},scores={pvp_sala_kill=..4}] pvp_sala_kill 5
-scoreboard players set @s[advancements={pvp:pvp_4_11=true},scores={pvp_sala_kill=..14}] pvp_sala_kill 15
-scoreboard players set @s[advancements={pvp:pvp_4_111=true},scores={pvp_sala_kill=..29}] pvp_sala_kill 30
-scoreboard players set @s[advancements={pvp:pvp_5=true},scores={pvp_anci_kill=..0}] pvp_anci_kill 1
-scoreboard players set @s[advancements={pvp:pvp_5_1=true},scores={pvp_anci_kill=..4}] pvp_anci_kill 5
-scoreboard players set @s[advancements={pvp:pvp_5_11=true},scores={pvp_anci_kill=..14}] pvp_anci_kill 15
-scoreboard players set @s[advancements={pvp:pvp_5_111=true},scores={pvp_anci_kill=..29}] pvp_anci_kill 30
+scoreboard players set @s[advancements={pvp:pvp_colisee_start=true},scores={pvp_zeus_kill=..0}] pvp_zeus_kill 1
+scoreboard players set @s[advancements={pvp:pvp_colisee_win_1=true},scores={pvp_zeus_kill=..4}] pvp_zeus_kill 5
+scoreboard players set @s[advancements={pvp:pvp_colisee_win_2=true},scores={pvp_zeus_kill=..14}] pvp_zeus_kill 15
+scoreboard players set @s[advancements={pvp:pvp_colisee_win_3=true},scores={pvp_zeus_kill=..29}] pvp_zeus_kill 30
+scoreboard players set @s[advancements={pvp:pvp_viking_start=true},scores={pvp_viki_kill=..0}] pvp_viki_kill 1
+scoreboard players set @s[advancements={pvp:pvp_viking_win_1=true},scores={pvp_viki_kill=..4}] pvp_viki_kill 5
+scoreboard players set @s[advancements={pvp:pvp_viking_win_2=true},scores={pvp_viki_kill=..14}] pvp_viki_kill 15
+scoreboard players set @s[advancements={pvp:pvp_viking_win_3=true},scores={pvp_viki_kill=..29}] pvp_viki_kill 30
+scoreboard players set @s[advancements={pvp:pvp_salamandre_start=true},scores={pvp_sala_kill=..0}] pvp_sala_kill 1
+scoreboard players set @s[advancements={pvp:pvp_salamandre_win_1=true},scores={pvp_sala_kill=..4}] pvp_sala_kill 5
+scoreboard players set @s[advancements={pvp:pvp_salamandre_win_2=true},scores={pvp_sala_kill=..14}] pvp_sala_kill 15
+scoreboard players set @s[advancements={pvp:pvp_salamandre_win_3=true},scores={pvp_sala_kill=..29}] pvp_sala_kill 30
+scoreboard players set @s[advancements={pvp:pvp_antik_start=true},scores={pvp_anci_kill=..0}] pvp_anci_kill 1
+scoreboard players set @s[advancements={pvp:pvp_antik_win_1=true},scores={pvp_anci_kill=..4}] pvp_anci_kill 5
+scoreboard players set @s[advancements={pvp:pvp_antik_win_2=true},scores={pvp_anci_kill=..14}] pvp_anci_kill 15
+scoreboard players set @s[advancements={pvp:pvp_antik_win_3=true},scores={pvp_anci_kill=..29}] pvp_anci_kill 30
 
 # Joueur traite
 tag @s add score_avd_fixed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

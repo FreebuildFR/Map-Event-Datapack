@@ -1,14 +1,14 @@
 {
     "display": {
         "title": {
-            "text": "Viking",
+            "text": "Stèle",
             "color": "aqua"
         },
         "description": {
-            "text": "Vous avez vaincu votre premier ennemi dans cette arène"
+            "text": "Vous avez vaincu 15 ennemis dans cette arène"
         },
         "icon": {
-            "id": "minecraft:stone_axe"
+            "id": "minecraft:stone"
         },
         "frame": "task",
         "show_toast": true,
@@ -16,9 +16,10 @@
         "hidden": false
     },
     "criteria": {
-        "pvp_3": {
+        "pvp_antik_win_2": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "pvp:pvp_1"
+    "parent": "pvp:pvp_antik_win_1"
 }
+

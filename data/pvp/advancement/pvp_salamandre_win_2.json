@@ -1,14 +1,14 @@
 {
     "display": {
         "title": {
-            "text": "Souffle de feu",
+            "text": "Bourrasque infernale",
             "color": "aqua"
         },
         "description": {
-            "text": "Vous avez vaincu 5 ennemis dans cette arène"
+            "text": "Vous avez vaincu 15 ennemis dans cette arène"
         },
         "icon": {
-            "id": "minecraft:cobblestone"
+            "id": "minecraft:obsidian"
         },
         "frame": "task",
         "show_toast": true,
@@ -16,9 +16,10 @@
         "hidden": false
     },
     "criteria": {
-        "pvp_4_1": {
+        "pvp_salamandre_win_2": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "pvp:pvp_4"
+    "parent": "pvp:pvp_salamandre_win_1"
 }
+

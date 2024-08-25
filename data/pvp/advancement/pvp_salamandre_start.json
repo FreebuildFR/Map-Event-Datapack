@@ -1,24 +1,25 @@
 {
     "display": {
         "title": {
-            "text": "Autel",
+            "text": "Au coeur du volcan",
             "color": "aqua"
         },
         "description": {
-            "text": "Vous avez vaincu 30 ennemis dans cette arène"
+            "text": "Vous avez vaincu votre premier ennemi dans cette arène"
         },
         "icon": {
-            "id": "minecraft:chiseled_stone_bricks"
+            "id": "minecraft:gravel"
         },
-        "frame": "challenge",
+        "frame": "task",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": false
     },
     "criteria": {
-        "pvp_5_111": {
+        "pvp_salamandre_start": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "pvp:pvp_5_11"
+    "parent": "pvp:pvp_start"
 }
+

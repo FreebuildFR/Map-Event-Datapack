@@ -1,14 +1,14 @@
 {
     "display": {
         "title": {
-            "text": "Déflagration draconique",
+            "text": "Futur empereur",
             "color": "aqua"
         },
         "description": {
             "text": "Vous avez vaincu 30 ennemis dans cette arène"
         },
         "icon": {
-            "id": "minecraft:magma_block"
+            "id": "minecraft:oak_leaves"
         },
         "frame": "challenge",
         "show_toast": true,
@@ -16,9 +16,10 @@
         "hidden": false
     },
     "criteria": {
-        "pvp_4_111": {
+        "pvp_colisee_win_3": {
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "pvp:pvp_4_11"
+    "parent": "pvp:pvp_colisee_win_2"
 }
+
