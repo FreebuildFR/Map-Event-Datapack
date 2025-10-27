@@ -9,7 +9,7 @@ execute as @a[nbt={SelectedItem:{id:"minecraft:fire_charge",count:1}},x=-114,y=0
 execute as @a[nbt={SelectedItem:{id:"minecraft:fire_charge",count:1}},x=-114,y=0,z=171,dx=84,dy=80,dz=64] run clear @s minecraft:fire_charge
 
 execute as @a[nbt={SelectedItem:{id:"minecraft:structure_void",count:1}},x=-114,y=0,z=171,dx=84,dy=80,dz=64] run scoreboard players set @s pvp_anci_timer 200
-execute as @a[nbt={SelectedItem:{id:"minecraft:structure_void",count:1}},x=-114,y=0,z=171,dx=84,dy=80,dz=64] run give @s crossbow[damage=326,enchantments={levels:{"minecraft:power":4,"minecraft:multishot":1,"minecraft:piercing":3}},charged_projectiles=[{id:"minecraft:arrow",count:1},{id:"minecraft:arrow",count:1},{id:"minecraft:arrow",count:1}]] 1
+execute as @a[nbt={SelectedItem:{id:"minecraft:structure_void",count:1}},x=-114,y=0,z=171,dx=84,dy=80,dz=64] run give @s crossbow[damage=326,enchantments={"minecraft:power":4,"minecraft:multishot":1,"minecraft:piercing":3},charged_projectiles=[{id:"minecraft:arrow",count:1},{id:"minecraft:arrow",count:1},{id:"minecraft:arrow",count:1}]] 1
 execute as @a[nbt={SelectedItem:{id:"minecraft:structure_void",count:1}},x=-114,y=0,z=171,dx=84,dy=80,dz=64] run clear @s minecraft:structure_void
 
 scoreboard players remove @a[x=-114,y=0,z=171,dx=84,dy=80,dz=64,scores={pvp_anci_timer=0..}] pvp_anci_timer 1
