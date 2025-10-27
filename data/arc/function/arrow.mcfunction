@@ -5,10 +5,10 @@ execute as @a[x=-6,y=13,z=-396,dx=145,dy=79,dz=104] store result score @s UUID r
 
 #particule
 execute as @a[x=-6,y=13,z=-396,dx=145,dy=79,dz=114,tag=p_cloud,nbt=!{equipment:{offhand:{id:"minecraft:tipped_arrow"}}}] run item replace entity @s weapon.offhand with tipped_arrow[custom_name="Flèche nuage",potion_contents={custom_color:16777215}] 1
-execute as @a[x=-6,y=13,z=-396,dx=145,dy=79,dz=114,tag=p_end_rod,nbt=!{equipment:{offhand:{id:"minecraft:tipped_arrow"}}}] run item replace entity @s weapon.offhand with tipped_arrow[custom_name='"Flèche de l\'end"',potion_contents={custom_color:16383905}] 1
-execute as @a[x=-6,y=13,z=-396,dx=145,dy=79,dz=114,tag=p_composter,nbt=!{equipment:{offhand:{id:"minecraft:tipped_arrow"}}}] run item replace entity @s weapon.offhand with tipped_arrow[custom_name='"Flèche étoile"',potion_contents={custom_color:3340870}] 1
-execute as @a[x=-6,y=13,z=-396,dx=145,dy=79,dz=114,tag=p_flame,nbt=!{equipment:{offhand:{id:"minecraft:tipped_arrow"}}}] run item replace entity @s weapon.offhand with tipped_arrow[custom_name='"Flèche flamme"',potion_contents={custom_color:16398868}] 1
-execute as @a[x=-6,y=13,z=-396,dx=145,dy=79,dz=114,tag=p_witch,nbt=!{equipment:{offhand:{id:"minecraft:tipped_arrow"}}}] run item replace entity @s weapon.offhand with tipped_arrow[custom_name='"Flèche sort"',potion_contents={custom_color:15222522}] 1
+execute as @a[x=-6,y=13,z=-396,dx=145,dy=79,dz=114,tag=p_end_rod,nbt=!{equipment:{offhand:{id:"minecraft:tipped_arrow"}}}] run item replace entity @s weapon.offhand with tipped_arrow[custom_name="Flèche de l\'end",potion_contents={custom_color:16383905}] 1
+execute as @a[x=-6,y=13,z=-396,dx=145,dy=79,dz=114,tag=p_composter,nbt=!{equipment:{offhand:{id:"minecraft:tipped_arrow"}}}] run item replace entity @s weapon.offhand with tipped_arrow[custom_name="Flèche étoile",potion_contents={custom_color:3340870}] 1
+execute as @a[x=-6,y=13,z=-396,dx=145,dy=79,dz=114,tag=p_flame,nbt=!{equipment:{offhand:{id:"minecraft:tipped_arrow"}}}] run item replace entity @s weapon.offhand with tipped_arrow[custom_name="Flèche flamme",potion_contents={custom_color:16398868}] 1
+execute as @a[x=-6,y=13,z=-396,dx=145,dy=79,dz=114,tag=p_witch,nbt=!{equipment:{offhand:{id:"minecraft:tipped_arrow"}}}] run item replace entity @s weapon.offhand with tipped_arrow[custom_name="Flèche sort",potion_contents={custom_color:15222522}] 1
 
 #Si on est dans un bloc de tnt on donne l'achevement
 execute as @a[x=-6,y=40,z=-361,dx=25,dy=15,dz=30] if score @s UUID = Switch UUID if entity @e[type=minecraft:arrow,x=-6,y=40,z=-361,dx=25,dy=15,dz=30,limit=1,nbt={inBlockState:{Name:"minecraft:tnt"}},tag=!arrow_detected] run advancement grant @s only arc:arc_tnt
