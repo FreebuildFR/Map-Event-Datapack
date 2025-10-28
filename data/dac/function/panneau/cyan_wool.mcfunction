@@ -1,1 +1,1 @@
-item replace entity @s armor.head with cyan_wool[enchantments={levels:{"minecraft:binding_curse":1},show_in_tooltip:false}]
+item replace entity @s armor.head with cyan_wool[enchantments={"binding_curse":1},tooltip_display={hidden_components:["enchantments"]}]

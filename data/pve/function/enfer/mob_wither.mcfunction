@@ -1,1 +1,1 @@
-summon minecraft:wither_skeleton ~ ~ ~ {ArmorItems:[{},{},{},{id:"minecraft:coal_block",count:1}]}
+summon minecraft:wither_skeleton ~ ~ ~ {equipment:{head:{id:"minecraft:coal_block",count:1}}}

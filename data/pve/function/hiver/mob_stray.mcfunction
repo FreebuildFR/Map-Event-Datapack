@@ -1,1 +1,1 @@
-summon stray ~ ~ ~ {PersistenceRequired:1b,ArmorItems:[{},{},{},{id:"minecraft:acacia_button",count:1}]}
+summon stray ~ ~ ~ {PersistenceRequired:1b,equipment:{head:{id:"minecraft:acacia_button",count:1}}}
