@@ -7,8 +7,8 @@ execute as @e[x=4,y=13,z=-396,dx=113,dy=76,dz=113,type=minecart] at @s unless pr
 
 #Départ
 execute as @a[x=3,y=86,z=-388,dx=0,dy=0,dz=0,nbt={RootVehicle:{Entity:{id:"minecraft:minecart"}}}] at @s run data merge entity @e[type=minecraft:minecart,distance=..0.5,limit=1] {Motion:[1.0,0.0,0.0]}
-execute as @a[x=3,y=86,z=-388,dx=0,dy=0,dz=0,nbt={RootVehicle:{Entity:{id:"minecraft:minecart"}}}] run item replace entity @s weapon.mainhand with bow[custom_name='"Arc"',unbreakable={},enchantments={"minecraft:infinity":1}]
-execute as @a[x=3,y=86,z=-388,dx=0,dy=0,dz=0,nbt={RootVehicle:{Entity:{id:"minecraft:minecart"}}}] run item replace entity @s weapon.offhand with minecraft:arrow[custom_name='"Fléchettes"']
+execute as @a[x=3,y=86,z=-388,dx=0,dy=0,dz=0,nbt={RootVehicle:{Entity:{id:"minecraft:minecart"}}}] run item replace entity @s weapon.mainhand with bow[custom_name="Arc",unbreakable={},enchantments={"minecraft:infinity":1}]
+execute as @a[x=3,y=86,z=-388,dx=0,dy=0,dz=0,nbt={RootVehicle:{Entity:{id:"minecraft:minecart"}}}] run item replace entity @s weapon.offhand with minecraft:arrow[custom_name="Fléchettes"]
 execute unless entity @e[x=3,y=86,z=-388,dx=0,dy=0,dz=0,type=minecart] run summon minecraft:minecart 3.50 86.13 -387.5 {Invulnerable:1b}
 
 #Particules

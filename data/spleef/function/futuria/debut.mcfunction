@@ -7,8 +7,8 @@ execute as @a[x=343,y=79,z=-361,dx=15,dy=4,dz=15] run playsound minecraft:entity
 function spleef:futuria/fill
 
 #Enlève les panneaux
-data merge block 349 81 -361 {front_text:{messages:['{"text":""}','{"text":"Une partie","bold":true,"color":"green"}','{"text":"va commencer","bold":true,"color":"green"}','{"text":""}']}}
-data merge block 349 81 -349 {front_text:{messages:['{"text":""}','{"text":"Une partie","bold":true,"color":"green"}','{"text":"va commencer","bold":true,"color":"green"}','{"text":""}']}}
+data merge block 349 81 -361 {front_text:{messages:[{"text":""},{"text":"Une partie","bold":true,"color":"green"},{"text":"va commencer","bold":true,"color":"green"},{"text":""}]}}
+data merge block 349 81 -349 {front_text:{messages:[{"text":""},{"text":"Une partie","bold":true,"color":"green"},{"text":"va commencer","bold":true,"color":"green"},{"text":""}]}}
 
 #Lance le timer
 schedule function spleef:futuria/5s 5s

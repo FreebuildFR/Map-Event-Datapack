@@ -6,6 +6,6 @@ schedule function pve:hiver/debut_1 7s
 
 setblock 573 66 124 air
 
-setblock 573 66 124 dark_oak_wall_sign[facing=west]{front_text:{messages:['[""]','["",{"text":"C\'est parti !","color":"green","bold":true}]','[""]','[""]']},is_waxed:1b} replace
+setblock 573 66 124 dark_oak_wall_sign[facing=west]{front_text:{messages:[[""],["",{"text":"C'est parti !","color":"green","bold":true}],[""],[""]]},is_waxed:1b} replace
 
 scoreboard players set npc_hiver_count pve_vague_hiver -1

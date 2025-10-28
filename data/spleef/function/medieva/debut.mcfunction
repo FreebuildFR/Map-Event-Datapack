@@ -7,8 +7,8 @@ execute as @a[x=378,y=53,z=-379,dx=42,dy=3,dz=42] run playsound minecraft:entity
 function spleef:medieva/fill
 
 #Enlève les panneaux
-data merge block 393 55 -358 {front_text:{messages:['{"text":""}','{"text":"Une partie","bold":true,"color":"green"}','{"text":"va commencer","bold":true,"color":"green"}','{"text":""}']}}
-data merge block 405 55 -358 {front_text:{messages:['{"text":""}','{"text":"Une partie","bold":true,"color":"green"}','{"text":"va commencer","bold":true,"color":"green"}','{"text":""}']}}
+data merge block 393 55 -358 {front_text:{messages:[{"text":""},{"text":"Une partie","bold":true,"color":"green"},{"text":"va commencer","bold":true,"color":"green"},{"text":""}]}}
+data merge block 405 55 -358 {front_text:{messages:[{"text":""},{"text":"Une partie","bold":true,"color":"green"},{"text":"va commencer","bold":true,"color":"green"},{"text":""}]}}
 
 #Lance le timer
 schedule function spleef:medieva/5s 5s

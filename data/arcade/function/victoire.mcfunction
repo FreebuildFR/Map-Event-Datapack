@@ -1,4 +1,4 @@
-summon minecraft:armor_stand ~ ~ ~ {CustomName:'{"text":"arcade_vic"}',Marker:1b,NoGravity:1b,Invisible:1b}
+summon minecraft:armor_stand ~ ~ ~ {CustomName:{"text":"arcade_vic"},Marker:1b,NoGravity:1b,Invisible:1b}
 execute as @e[type=minecraft:armor_stand,name=arcade_vic] at @s if block ~ ~ ~ air run tp ~ ~-2 ~
 execute as @e[type=minecraft:armor_stand,name=arcade_vic] at @s if block ~ ~ ~ air run tp ~ ~-2 ~
 execute as @e[type=minecraft:armor_stand,name=arcade_vic] at @s if block ~ ~ ~ air run tp ~ ~-2 ~
